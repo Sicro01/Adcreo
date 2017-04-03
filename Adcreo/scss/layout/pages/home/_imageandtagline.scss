@@ -1,0 +1,116 @@
+﻿.background-image {
+    height: 100%;
+    background: url('../Media/women-success.jpg') no-repeat center center fixed;
+    background-size: cover;
+    }
+
+.flex-container-homepage {
+    @include flexbox();
+    background: linear-gradient( rgba(0, 10, 64, 0.5), rgba(0, 10, 64, 0.5)) no-repeat center center fixed;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item-tagline {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+
+    @include respond-to(xsmall) {
+        font-size: $brand-font-size * 2;
+    }
+
+    @include respond-to(small) {
+        font-size: $brand-font-size * 2.5;
+    }
+
+    @include respond-to(medium) {
+        font-size: $brand-font-size * 3;
+    }
+
+    @include respond-to(large) {
+        font-size: $brand-font-size * 3.5;
+    }
+
+    @include respond-to(xlarge) {
+        font-size: $brand-font-size * 4;
+    }
+}
+
+.flex-container-arrow {
+    text-align: center;
+    margin-top: -40px;
+}
+
+.flex-item-downarrow:before {
+    content: "\f103";
+    font: normal 3rem 'FontAwesome';
+    color: #ffffff;
+}
+
+.bounce a {
+    text-decoration: none;
+}
+
+.bounce {
+    animation: bounce 2s ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+    }
+}
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+    }
+
+    40% {
+        -moz-transform: translateY(-30px);
+    }
+
+    60% {
+        -moz-transform: translateY(-15px);
+    }
+}
+
+@-o-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -o-transform: translateY(0);
+    }
+
+    40% {
+        -o-transform: translateY(-30px);
+    }
+
+    60% {
+        -o-transform: translateY(-15px);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}

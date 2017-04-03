@@ -1,0 +1,10 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "WebBase.cshtml";
+}
+
+@* the fun starts here *@
+
+@{ Html.RenderAction("RenderTagLine", "Home");}
+@{ Html.RenderAction("RenderWeAreAbout", "Home");}
+@{ Html.RenderAction("RenderHomeServices", "Home");}

@@ -1,0 +1,247 @@
+﻿/********************************/
+/* Navbar Formatting            */
+/********************************/
+
+/*ul .dropdown-menu li a {
+    font-size: $small-font-size;
+    background-color: transparent !important;
+}*/
+
+.nav > .nav-item > ul > li > a {
+    color: $brand-secondary;
+    font-size: $small-font-size;
+    font-weight: normal;
+    background-color: transparent !important;
+}
+
+/*.dropdown-item {
+    font-size: $small-font-size;
+    left: -50px;
+    color: red;
+}*/
+
+.dropdown-menu {
+    content: "";
+    /*height: 100%;*/
+    height: 75%;
+    vertical-align: top;
+    left: -30px;
+    top: 45px;
+    /*width: 0;*/
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    /*background: $brand-accent-color3;*/
+    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) no-repeat top center fixed;
+    border: none;
+    @include border-radius(0);
+}
+
+.dropdown:hover > .dropdown-menu {
+    left: -50px;
+    width: 175px;
+    display: block;
+    height: 100px;
+}
+
+/*.dropdown-submenu {
+    position: relative;
+    color:red;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}*/
+
+.homepage-header-background-start {
+    filter: 10px;
+    /*background-color: $brand-header-color;*/
+}
+
+.homepage-header-background-scroll {
+    background-color: $brand-header-color;
+    opacity: 1;
+    filter: 10px;
+}
+
+.otherpages-header-background {
+    background-color: $brand-header-color;
+}
+
+.navbar {
+    min-height: 0%;
+    line-height: 3rem;
+    height: 50px;
+}
+
+.navbar-brand:hover {
+    color: $brand-white;
+    opacity: 0.5;
+}
+
+.navbar-brand:visited {
+    color: $brand-white;
+}
+
+.navbar-brand small {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.company-logo, company-logo-tagline {
+    font-weight: $heavy;
+    color: $brand-white;
+    text-align: center;
+    line-height: 1 !important;
+}
+
+.company-logo {
+
+    @include mappy-bp(max xsmall) {
+        font-size: $brand-font-size * 1.5;
+    }
+
+    @include mappy-bp(xsmall) {
+        font-size: $brand-font-size * 1.5;
+    }
+
+    @include mappy-bp(small) {
+        font-size: $brand-font-size * 1.5;
+    }
+
+    @include mappy-bp(medium) {
+        font-size: $brand-font-size * 1.5;
+    }
+
+    @include mappy-bp(large) {
+        font-size: $brand-font-size * 1.5;
+    }
+
+    @include mappy-bp(xlarge) {
+        font-size: $brand-font-size * 1.5;
+    }
+}
+
+.company-logo-tagline {
+
+    @include mappy-bp(max xsmall) {
+        font-size: $brand-font-size * 0.5;
+    }
+
+    @include mappy-bp(xsmall) {
+        font-size: $brand-font-size * 0.5;
+    }
+
+    @include mappy-bp(small) {
+        font-size: $brand-font-size * 0.5;
+    }
+
+    @include mappy-bp(medium) {
+        font-size: $brand-font-size * 0.5;
+    }
+
+    @include mappy-bp(large) {
+        font-size: $brand-font-size * 0.5;
+    }
+
+    @include mappy-bp(xlarge) {
+        font-size: $brand-font-size * 0.5;
+    }
+}
+
+/* Collapsed Navbar - Hamburger formatting */
+
+.hamburger-color {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    font-size: 1rem;
+}
+
+.navbar-toggler {
+    top: 30%;
+    right: 0px;
+}
+
+.navbar .navbar-toggler {
+    border-color: none;
+    outline: none;
+}
+
+.navbar .navbar-toggler:hover {
+    cursor: pointer;
+    border-color: $brand-white;
+}
+
+/* Navbar Item Formatting */
+
+li.nav-item a {
+    color: $brand-white;
+    font-family: $brand-font-family;
+    font-weight: $regular;
+    font-size: $brand-font-size;
+    line-height: 2rem;
+}
+
+li.nav-item:hover a {
+    color: $brand-white;
+}
+
+#header {
+    @include mappy-bp(max small) {
+        background-color: $brand-header-color;
+
+        .navbar-nav {
+            background-color: $brand-header-color;
+        }
+
+        li {
+            text-align: center;
+            margin: 30px 100px 30px 100px;
+        }
+
+        li.nav-item a {
+            text-align: center;
+            color: $brand-white;
+            font-size: $large-font-size;
+        }
+    }
+}

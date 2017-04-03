@@ -1,0 +1,4 @@
+﻿ 2017-03-22 00:02:09,588 [P12656/D8/T67] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: Sicro, IP Address: 127.0.0.1
+ 2017-03-22 14:37:20,837 [P12656/D8/T475] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-22 16:43:07,190 [P12656/D8/T219] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-21 16:43:07
+ 2017-03-22 20:43:07,339 [P12656/D8/T381] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-21 20:43:07

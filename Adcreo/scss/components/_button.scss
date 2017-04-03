@@ -1,0 +1,60 @@
+﻿/********************************/
+/* Button Formatting            */
+/********************************/
+.brand-button {
+    background-color: $brand-accent-color1;
+    color: $brand-secondary;
+    border: none;
+    padding: 1.5rem;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-weight: $bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+    @include transition(all, 0.8s, ease);
+
+    &:hover {
+        box-shadow: inset 0 100px 0 0 $brand-accent-color1;
+    }
+
+    @include respond-to(xsmall) {
+        font-size: $brand-font-size * 0.5;
+    }
+
+    @include respond-to(small) {
+        font-size: $brand-font-size * 0.6;
+    }
+
+    @include respond-to(medium) {
+        font-size: $brand-font-size * 0.7;
+    }
+
+    @include respond-to(large) {
+        font-size: $brand-font-size * 0.8;
+    }
+
+    @include respond-to(xlarge) {
+        font-size: $brand-font-size * 0.8;
+    }
+}
+
+/*brand-button:hover {
+    box-shadow: inset 0 100px 0 0 $brand-accent-color1;
+}*/
+
+/*.card-bottombar-button {
+    @extend .brand-button;
+    padding: 0.75rem;
+    @include align-self(flex-end);
+}*/
+
+/*.button_sliding_bg {
+    @include transition(all, 0.8s, ease)
+}
+
+.button_sliding_bg:hover {
+    box-shadow: inset 0 100px 0 0 $brand-accent-color1;
+}*/

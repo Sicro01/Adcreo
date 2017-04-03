@@ -1,0 +1,59 @@
+﻿/********************************/
+/* Colors                        */
+/********************************/
+/* Named Colors */
+$brand-red: #FF0000;
+$brand-white: #FFFFFF;
+$brand-gray: #808080;
+$brand-pink: #FFCBDB;
+$brand-brown: #964B00;
+$brand-orange: #FF7F00;
+$brand-yellow: #FFFF00;
+$brand-green: #00FF00;
+$brand-cyan: #00FFFF;
+$brand-blue: #0000FF;
+$brand-violet: #7F00FF;
+$brand-black: #000000;
+$brand-duke-blue: #001A57;
+$brand-blue-gray: #6699CC;
+$brand-main-green: #00647D;
+$brand-alice-blue: #F0F8FF;
+$brand-ash-gray: #B2BEB5;
+$brand-dark-gray: #1c1e26;
+
+$brand-dark-blue: #000A40;
+$brand-berry: #B5252A;
+$brand-cream: #EFDB7D;
+$brand-gray: #3C3C3C;
+
+//Header
+/*$brand-header-color:$brand-dark-gray;*/
+$brand-header-color:$brand-dark-blue;
+
+// Body - Fonts
+$brand-primary: $brand-dark-gray;
+$brand-secondary: $brand-white; 
+ 
+// Body - Backgrounds
+$brand-body-bg1: #fff;
+$brand-body-bg2: $brand-berry;
+$brand-body-bg3: $brand-gray;
+// Accents
+$brand-accent-color1:$brand-berry; /*rgb(49,175,212)*/
+$brand-accent-color2:$brand-dark-blue;
+$brand-accent-color3:$brand-cream;
+$brand-accent-blue-grad0: rgba(49,175,212,0);
+$brand-accent-blue-grad1: rgba(49,175,212,1);
+
+// Old
+/*$brand-body-bg1: #fff;
+$brand-body-bg2: #31AFD4;
+$brand-body-bg3: #1c1e26;*/
+
+
+/*
+You can define a default that is used only if a value isn't
+assigned any place else
+ 
+$default-text-color: $black !default;
+*/

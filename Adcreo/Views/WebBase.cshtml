@@ -1,0 +1,58 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title></title>
+    <!-- CSS -->
+    <!-- Bootstrap V4 alpha 6  -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Adcreo -->
+    <link href="~/scss/main.css" rel="stylesheet" />
+    <!-- IcoMoon Icon CSS -->
+    <link href="~/Content/icomoon.css" rel="stylesheet" />
+    <!-- Animate on Scroll -->
+    <link href="~/Content/aos.css" rel="stylesheet" />
+    <!-- Pick up a special fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Assistant|Roboto" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    @*<link href="~/Content/font-awesome.min.css" rel="stylesheet" />*@
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2991132.js"></script>
+    <!-- End of HubSpot Embed Code -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    @{ Html.RenderAction("RenderHeader", "SiteLayout");}
+
+    @RenderBody()
+
+    @{ Html.RenderAction("RenderFooter", "SiteLayout");}
+
+    <!-- Scripts -->
+    <!-- jQuery 1st! (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap V4 alpha 6 -->
+    <script src="~/Scripts/tether/tether.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <!-- Animate on Scroll -->
+    <script src="~/Scripts/aos.js"></script>
+    <!-- Adcreo -->
+    <script src="~/Scripts/Adcreo.js"></script>
+
+</body>
+</html>
+

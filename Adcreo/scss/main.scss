@@ -1,0 +1,22 @@
+﻿/********************************/
+/* Main SCSS File               */
+/********************************/
+@import "base/colors";
+@import "base/typography";
+@import "helpers/mappy-breakpoints";
+@import "helpers/mixins";
+@import "helpers/normalize";
+@import "helpers/variables";
+@import "components/button";
+@import "components/hr";
+@import "components/icons";
+@import "components/slidingunderline";
+@import "layout/base";
+@import "layout/header";
+@import "layout/pages/home/imageandtagline";
+@import "layout/pages/home/weareabout";
+@import "layout/pages/home/homeservices";
+@import "layout/footer";
+@import "layout/pages/about/about";
+@import "layout/pages/Services/services";
+@import "layout/pages/WebSiteDesignAndBuild/websitedesignandbuildservice";

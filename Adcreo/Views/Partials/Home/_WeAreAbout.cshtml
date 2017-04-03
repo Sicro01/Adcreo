@@ -1,0 +1,23 @@
+﻿@using Adcreo.Models
+@model WeAreAboutModel
+   
+@*  Home Page We Are About Section  *@
+<div class="container-fluid p-0">
+    <div id="weareabout" class="weareabout-section">
+        <div class="flex-container-weareabout-content">
+            <div class="flex-item-weareabout-title" data-aos="fade-up" data-aos-duration="1500">
+                @*<p>We like to create.</p>*@
+                <p>@Model.WeAreAboutTitle</p>
+            </div>
+            <div class="flex-item-weareabout-body" data-aos="fade-up" data-aos-duration="1500">
+                @*<p>We are a team of designers and developers who focus on understanding your business and use that knowledge to design and create a compelling website.</p>*@
+                @Model.WeAreAboutBodyText
+            </div>
+            <div class="flex-item-weareabout-footer" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="-100">
+                @*<button type="button" class="btn btn-primary button_sliding_bg brand-button weareabout-button">ABOUT US</button>*@
+                <button type="button" class="weareabout-button">ABOUT US</button>
+            </div>
+        </div>
+    </div>
+</div>
+

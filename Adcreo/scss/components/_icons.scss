@@ -1,0 +1,28 @@
+﻿/********************************/
+/* Icon Formatting              */
+/********************************/
+[class*="icon"] {
+    padding-top: 5px;
+    color: $brand-accent-color1;
+    font-size: 3rem;
+
+    @include mappy-bp(xsmall) {
+        font-size: $brand-font-size * 4;
+    }
+
+    @include mappy-bp(small) {
+        font-size: $brand-font-size * 4;
+    }
+
+    @include mappy-bp(medium) {
+        font-size: $brand-font-size * 4;
+    }
+
+    @include mappy-bp(large) {
+        font-size: $brand-font-size * 4;
+    }
+
+    @include mappy-bp(xlarge) {
+        font-size: $brand-font-size * 4;
+    }
+}

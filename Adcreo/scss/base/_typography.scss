@@ -1,0 +1,31 @@
+﻿/********************************/
+/* Typography                   */
+/********************************/
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+$heavy: 900;
+
+// brand Font
+$brand-font-family: "Roboto", sans-serif;
+$brand-font-weight: $regular;
+$brand-font-size: 1rem;
+$brand-line-height: 1.4rem;
+
+// Small/Large Font
+$small-font-size: 0.75rem;
+$regular-font-size: 1.5rem;
+$large-font-size: 2.5rem;
+
+// Fixed Font
+$fixed-font-family: monospace;
+$fixed-font-size: 85%;
+$fixed-line-height: $brand-line-height;
+
+// Headings
+$header-font-size: 1.25rem;
+$header-font-weight: $bold;
+
+// Logo
+$logo-font-size: 5rem;

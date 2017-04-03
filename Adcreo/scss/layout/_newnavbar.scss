@@ -1,0 +1,168 @@
+﻿/********************************************/
+/* Navbar Section Formatting                */
+/********************************************/
+.header-section {
+    @include flexbox();
+    width: 100%;
+    background-color: $brand-header-color;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+
+.brand-primary-logo {
+    @include flexbox();
+    @include align-items(center);
+    @include justify-content(flex-start);
+    width: 50%;
+}
+
+.brand-primary-logo a {
+    /*font-size: $large-font-size;*/
+    font-weight: $heavy;
+    color: $brand-secondary;
+    text-transform: uppercase;
+    padding: 20px 0 0 20px;
+    line-height: 1 !important;
+
+    @include respond-to(xsmall) {
+        font-size: $brand-font-size * 1;
+    }
+
+    @include respond-to(small) {
+        font-size: $brand-font-size * 2;
+    }
+
+    @include respond-to(medium) {
+        font-size: $brand-font-size * 3;
+    }
+
+    @include respond-to(large) {
+        font-size: $brand-font-size * 4;
+    }
+
+    @include respond-to(xlarge) {
+        font-size: $brand-font-size * 5;
+    }
+}
+
+.brand-primary-logo {
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $brand-secondary;
+        opacity: 0.5;
+    }
+}
+
+.brand-primary-tagline {
+    font-weight: $regular;
+    color: $brand-secondary;
+    /*font-size: $small-font-size;*/
+    padding-bottom: 10px;
+
+    @include respond-to(xsmall) {
+        font-size: $brand-font-size * 1;
+    }
+
+    @include respond-to(small) {
+        font-size: $brand-font-size * 2;
+    }
+
+    @include respond-to(medium) {
+        font-size: $brand-font-size * 3;
+    }
+
+    @include respond-to(large) {
+        font-size: $brand-font-size * 4;
+    }
+
+    @include respond-to(xlarge) {
+        font-size: $brand-font-size * 3;
+    }
+
+
+
+    @include respond-to(xsmall) {
+        font-size: $small-font-size * 1;
+    }
+
+    @include respond-to(small) {
+        font-size: $small-font-size * 1.2;
+    }
+
+    @include respond-to(medium) {
+        font-size: $small-font-size * 1.4;
+    }
+
+    @include respond-to(large) {
+        font-size: $small-font-size * 1.6;
+    }
+
+    @include respond-to(xlarge) {
+        font-size: $small-font-size * 2;
+    }
+}
+
+.brand-primary-menu {
+    @include flexbox();
+    @include align-items(center);
+    @include justify-content(center);
+    width: 50%;
+}
+/***************************/
+/* Superfish Override Menu */
+/***************************/
+.sf-menu {
+    margin: 0 !important;
+}
+
+.sf-menu li {
+    background: none;
+    border: none;
+}
+
+.sf-menu a {
+    color: rgba(255,255,255,.5);
+    padding: .75em 1em !important;
+    font-weight: $regular;
+    border-left: none;
+    border-top: none;
+    border-top: none;
+    border-bottom: none !important;
+    text-decoration: none;
+    font-size: 18px;
+
+    &:hover, &:focus {
+        color: #fff !important;
+    }
+}
+
+.sf-menu li.active {
+    a {
+        &:hover, &:focus {
+            color: $brand-white;
+        }
+    }
+}
+
+.sf-menu li,
+.sf-menu ul li,
+.sf-menu ul ul li,
+.sf-menu li:hover,
+.sf-menu li.sfHover {
+    background: transparent;
+}
+
+.sf-menu li:hover a,
+.sf-menu li.sfHover a,
+.sf-menu ul li:hover a,
+.sf-menu ul li.sfHover a,
+.sf-menu li.active a {
+    color: $brand-white;
+    // text-shadow: 2px 2px 1px rgba(0, 0, 0, .08);
+}
+

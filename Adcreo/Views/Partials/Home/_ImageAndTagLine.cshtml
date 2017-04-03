@@ -1,0 +1,38 @@
+﻿@inherits UmbracoTemplatePage
+
+@*  Background Image, Overlay, Tagline and Arrow Prompt  *@
+<div class="background-image">
+    <div class="flex-container-homepage">
+        <div id="startchange" class="flex-item-tagline" data-aos="fade-up" data-aos-duration="1500">
+            <span>@Umbraco.AssignedContentItem.GetPropertyValue("pageHeading")</span>
+            @*<span>
+                How's the traffic this morning?<br />
+                Are you optimising your digital footprint?
+            </span>*@
+        </div>
+    </div>
+    <div class="bounce flex-container-arrow">
+        <a href="#weareabout" class="flex-item-downarrow smoothScroll"></a>
+    </div>
+</div>
+
+@*<div class="background-image">
+        <div class="flex-container-homepage">
+            <div id="startchange" class="flex-item-tagline" data-aos="fade-up" data-aos-duration="1500">
+                <span>
+                    How's the traffic this morning?<br />
+                    Are you optimising your digital footprint?
+                </span>
+            </div>
+        </div>
+        <div class="bounce flex-container-arrow">
+            <a href="#weareabout" class="flex-item-downarrow smoothScroll"></a>
+        </div>
+    </div>*@
+
+
+
+
+@*<video class="displayfirstpageimage" autoplay loop muted>
+        <source src="~/Media/Video_1.mp4" type="video/mp4" />
+    </video>*@

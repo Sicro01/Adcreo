@@ -1,0 +1,1262 @@
+﻿ 2017-03-25 00:11:55,971 [P12656/D15/T440] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 00:11:55
+ 2017-03-25 00:20:35,802 [P12656/D15/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 00:20:35,803 [P12656/D15/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 00:20:35,829 [P12656/D15/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 00:20:35,836 [P12656/D15/T219] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 00:20:35,853 [P12656/D15/T219] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 00:20:35,854 [P12656/D15/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 00:20:35,854 [P12656/D15/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 00:20:35,856 [P12656/D15/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 00:20:35,857 [P12656/D15/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 00:20:35,858 [P12656/D15/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 00:20:35,858 [P12656/D15/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 00:20:35,859 [P12656/D15/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 00:20:35,859 [P12656/D15/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 00:20:35,868 [P12656/D15/T222] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 00:20:35,868 [P12656/D15/T218] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 00:20:35,868 [P12656/D15/T225] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 00:20:35,870 [P12656/D15/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 00:21:06,010 [P12656/D15/T231] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 00:21:23,906 [P12656/D16/T13] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 00:21:24,003 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 00:21:24,059 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Hash determined (took 56ms)
+ 2017-03-25 00:21:24,120 [P12656/D16/T13] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 00:21:24,120 [P12656/D16/T13] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 00:21:24,155 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 00:21:24,258 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 103ms)
+ 2017-03-25 00:21:24,393 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 00:21:24,394 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 00:21:24,396 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 00:21:24,401 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 00:21:24,424 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 00:21:24,458 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 33ms)
+ 2017-03-25 00:21:24,459 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 00:21:24,476 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 17ms)
+ 2017-03-25 00:21:24,673 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 00:21:24,676 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 3ms)
+ 2017-03-25 00:21:24,677 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 00:21:24,679 [P12656/D16/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 00:21:28,337 [P12656/D16/T13] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 00:21:28,733 [P12656/D16/T13] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 00:21:28,914 [P12656/D16/T13] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 00:21:29,190 [P12656/D16/T13] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 00:21:29,249 [P12656/D16/T13] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5563ms)
+ 2017-03-25 00:21:31,379 [P12656/D16/T218] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 00:21:38,990 [P12656/D16/T218] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 00:21:39,126 [P12656/D16/T218] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 00:21:40,593 [P12656/D16/T218] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 00:21:40,597 [P12656/D16/T218] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-03-25 00:21:41,889 [P12656/D16/T218] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:22:39,221 [P12656/D16/T231] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 00:22:39
+ 2017-03-25 00:22:39,550 [P12656/D16/T233] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 00:22:39,553 [P12656/D16/T233] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 00:23:02,658 [P12656/D16/T233] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:25:10,781 [P12656/D16/T233] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 00:25:10,782 [P12656/D16/T233] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 00:25:10,791 [P12656/D16/T233] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 00:25:10,792 [P12656/D16/T233] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 00:25:10,806 [P12656/D16/T219] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 00:25:10,806 [P12656/D16/T231] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 00:25:11,068 [P12656/D16/T233] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 00:25:11,069 [P12656/D16/T233] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 00:25:11,071 [P12656/D16/T227] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 00:25:11,091 [P12656/D16/T233] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 00:25:11,099 [P12656/D16/T233] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 00:25:11,100 [P12656/D16/T233] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 00:25:11,100 [P12656/D16/T233] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 00:25:11,100 [P12656/D16/T233] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 00:25:11,101 [P12656/D16/T233] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 00:25:11,101 [P12656/D16/T231] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 00:25:11,103 [P12656/D16/T227] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 00:25:41,227 [P12656/D16/T70] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 00:25:51,647 [P12656/D17/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 00:25:51,676 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 00:25:51,708 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Hash determined (took 31ms)
+ 2017-03-25 00:25:51,792 [P12656/D17/T55] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 00:25:51,793 [P12656/D17/T55] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 00:25:51,815 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 00:25:51,849 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 34ms)
+ 2017-03-25 00:25:51,918 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 00:25:51,920 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 00:25:51,921 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 00:25:51,926 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 00:25:51,948 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 00:25:51,955 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2017-03-25 00:25:51,957 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 00:25:51,970 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 13ms)
+ 2017-03-25 00:25:52,039 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 00:25:52,041 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 00:25:52,042 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 00:25:52,044 [P12656/D17/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-03-25 00:25:54,844 [P12656/D17/T55] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 00:25:55,214 [P12656/D17/T55] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 00:25:55,298 [P12656/D17/T55] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 00:25:55,479 [P12656/D17/T55] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 00:25:55,532 [P12656/D17/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4069ms)
+ 2017-03-25 00:25:56,345 [P12656/D17/T231] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 00:25:57,076 [P12656/D17/T231] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 00:25:57,078 [P12656/D17/T231] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 00:25:58,041 [P12656/D17/T231] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 00:25:58,048 [P12656/D17/T231] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 6ms)
+ 2017-03-25 00:25:58,989 [P12656/D17/T231] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:26:57,180 [P12656/D17/T70] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 00:26:57
+ 2017-03-25 00:26:57,335 [P12656/D17/T231] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 00:26:57,338 [P12656/D17/T231] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 00:31:30,974 [P12656/D17/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 00:31:30,975 [P12656/D17/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 00:31:30,996 [P12656/D17/T386] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 00:31:30,999 [P12656/D17/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 00:31:30,999 [P12656/D17/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 00:31:31,000 [P12656/D17/T384] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 00:31:31,284 [P12656/D17/T60] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 00:31:31,293 [P12656/D17/T60] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 00:31:31,293 [P12656/D17/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 00:31:31,294 [P12656/D17/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 00:31:31,294 [P12656/D17/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 00:31:31,295 [P12656/D17/T386] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 00:31:31,295 [P12656/D17/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 00:31:31,297 [P12656/D17/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 00:31:31,298 [P12656/D17/T60] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 00:31:31,298 [P12656/D17/T386] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 00:31:31,299 [P12656/D17/T442] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 00:31:59,060 [P12656/D18/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 00:31:59,089 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 00:31:59,123 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 34ms)
+ 2017-03-25 00:31:59,203 [P12656/D18/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 00:31:59,204 [P12656/D18/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 00:31:59,225 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 00:31:59,255 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 30ms)
+ 2017-03-25 00:31:59,318 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 00:31:59,319 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 00:31:59,321 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 00:31:59,326 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 00:31:59,344 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 00:31:59,351 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-03-25 00:31:59,352 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 00:31:59,365 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 13ms)
+ 2017-03-25 00:31:59,433 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 00:31:59,435 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 00:31:59,436 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 00:31:59,438 [P12656/D18/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-03-25 00:32:01,336 [P12656/D17/T219] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 00:32:02,478 [P12656/D18/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 00:32:02,851 [P12656/D18/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 00:32:02,936 [P12656/D18/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 00:32:03,092 [P12656/D18/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 00:32:03,144 [P12656/D18/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4270ms)
+ 2017-03-25 00:32:04,021 [P12656/D18/T225] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 00:32:04,745 [P12656/D18/T225] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 00:32:04,747 [P12656/D18/T225] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 00:32:05,712 [P12656/D18/T225] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 00:32:05,717 [P12656/D18/T225] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-03-25 00:32:06,679 [P12656/D18/T225] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:32:41,019 [P12656/D18/T452] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:32:49,515 [P12656/D18/T383] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:33:04,839 [P12656/D18/T381] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 00:33:04
+ 2017-03-25 00:33:05,034 [P12656/D18/T225] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 00:33:05,037 [P12656/D18/T225] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 00:33:09,199 [P12656/D18/T381] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:33:12,807 [P12656/D18/T225] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:33:25,027 [P12656/D18/T446] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:33:36,530 [P12656/D18/T64] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:34:27,284 [P12656/D18/T381] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:34:29,938 [P12656/D18/T381] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:34:41,098 [P12656/D18/T456] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:35:23,921 [P12656/D18/T382] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:35:49,859 [P12656/D18/T382] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:37:15,367 [P12656/D18/T53] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:37:43,836 [P12656/D18/T226] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:37:47,174 [P12656/D18/T223] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:38:37,691 [P12656/D18/T223] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 00:39:33,855 [P12656/D18/T223] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 08:24:17,335 [P12656/D18/T241] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:11:56,906 [P12656/D18/T177] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 15:11:56,908 [P12656/D18/T177] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 15:11:56,956 [P12656/D18/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 15:11:57,303 [P12656/D18/T177] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 15:11:57,304 [P12656/D18/T177] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 15:11:57,306 [P12656/D18/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 15:11:57,312 [P12656/D18/T177] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 15:11:57,322 [P12656/D18/T177] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 15:11:57,323 [P12656/D18/T177] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 15:11:57,324 [P12656/D18/T177] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 15:11:57,336 [P12656/D18/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 15:11:57,349 [P12656/D18/T177] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 15:11:57,349 [P12656/D18/T177] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 15:11:57,350 [P12656/D18/T177] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 15:11:57,351 [P12656/D18/T177] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 15:11:57,351 [P12656/D18/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 15:11:57,353 [P12656/D18/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 15:12:27,468 [P12656/D18/T443] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 15:12:51,526 [P12656/D19/T13] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 15:12:51,617 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 15:12:51,674 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Hash determined (took 58ms)
+ 2017-03-25 15:12:51,875 [P12656/D19/T13] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 15:12:51,876 [P12656/D19/T13] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 15:12:51,898 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 15:12:52,645 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 746ms)
+ 2017-03-25 15:12:53,376 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 15:12:53,378 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 15:12:53,379 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 15:12:53,384 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 15:12:53,402 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 15:12:53,461 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 58ms)
+ 2017-03-25 15:12:53,462 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 15:12:53,488 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 26ms)
+ 2017-03-25 15:12:54,188 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 15:12:54,191 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 15:12:54,192 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 15:12:54,195 [P12656/D19/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 15:12:58,284 [P12656/D19/T13] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 15:12:58,738 [P12656/D19/T13] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 15:12:59,468 [P12656/D19/T13] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 15:12:59,752 [P12656/D19/T13] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 15:12:59,822 [P12656/D19/T13] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 8543ms)
+ 2017-03-25 15:13:07,636 [P12656/D19/T244] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 15:13:08,471 [P12656/D19/T244] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 15:13:08,497 [P12656/D19/T244] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 15:13:10,183 [P12656/D19/T244] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 15:13:10,187 [P12656/D19/T244] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-03-25 15:13:11,673 [P12656/D19/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:13:40,551 [P12656/D19/T379] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:14:08,767 [P12656/D19/T267] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 15:14:08,771 [P12656/D19/T267] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 15:14:08,843 [P12656/D19/T442] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 15:14:08
+ 2017-03-25 15:25:26,347 [P12656/D19/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 15:25:26,348 [P12656/D19/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 15:25:26,376 [P12656/D19/T271] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 15:25:26,741 [P12656/D19/T449] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 15:25:26,750 [P12656/D19/T449] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 15:25:26,751 [P12656/D19/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 15:25:26,751 [P12656/D19/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 15:25:26,752 [P12656/D19/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 15:25:26,753 [P12656/D19/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 15:25:26,753 [P12656/D19/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 15:25:26,754 [P12656/D19/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 15:25:26,753 [P12656/D19/T442] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 15:25:26,755 [P12656/D19/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 15:25:26,756 [P12656/D19/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 15:25:26,779 [P12656/D19/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 15:25:26,780 [P12656/D19/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 15:25:26,787 [P12656/D19/T177] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 15:25:49,414 [P12656/D20/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 15:25:49,479 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 15:25:49,522 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Hash determined (took 42ms)
+ 2017-03-25 15:25:49,622 [P12656/D20/T55] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 15:25:49,623 [P12656/D20/T55] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 15:25:49,654 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 15:25:49,695 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 40ms)
+ 2017-03-25 15:25:49,787 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 15:25:49,789 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 15:25:49,790 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 15:25:49,796 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 15:25:49,816 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 15:25:49,823 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-03-25 15:25:49,824 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 15:25:49,841 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 16ms)
+ 2017-03-25 15:25:49,938 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 15:25:49,941 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 15:25:49,942 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 15:25:49,944 [P12656/D20/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 15:25:54,285 [P12656/D20/T55] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 15:25:54,736 [P12656/D20/T55] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 15:25:54,948 [P12656/D20/T55] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 15:25:55,142 [P12656/D20/T55] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 15:25:55,197 [P12656/D20/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6033ms)
+ 2017-03-25 15:25:56,091 [P12656/D20/T272] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 15:25:56,798 [P12656/D19/T269] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 15:25:56,926 [P12656/D20/T272] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 15:25:56,929 [P12656/D20/T272] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 15:25:58,153 [P12656/D20/T272] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 15:25:58,160 [P12656/D20/T272] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 6ms)
+ 2017-03-25 15:25:59,568 [P12656/D20/T272] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:26:42,672 [P12656/D20/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 15:26:42,673 [P12656/D20/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 15:26:42,685 [P12656/D20/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 15:26:42,686 [P12656/D20/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 15:26:42,686 [P12656/D20/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 15:26:42,687 [P12656/D20/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 15:26:42,702 [P12656/D20/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 15:26:42,703 [P12656/D20/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 15:26:42,704 [P12656/D20/T271] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 15:26:42,721 [P12656/D20/T449] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 15:26:42,731 [P12656/D20/T449] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 15:26:42,731 [P12656/D20/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 15:26:42,732 [P12656/D20/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 15:26:42,732 [P12656/D20/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 15:26:42,733 [P12656/D20/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 15:26:42,733 [P12656/D20/T379] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 15:26:42,735 [P12656/D20/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 15:26:56,782 [P12656/D21/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 15:26:56,815 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 15:26:56,852 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Hash determined (took 38ms)
+ 2017-03-25 15:26:56,949 [P12656/D21/T55] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 15:26:56,949 [P12656/D21/T55] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 15:26:56,971 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 15:26:57,007 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 36ms)
+ 2017-03-25 15:26:57,079 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 15:26:57,080 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 15:26:57,081 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 15:26:57,086 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 15:26:57,108 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 15:26:57,116 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2017-03-25 15:26:57,117 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 15:26:57,130 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 13ms)
+ 2017-03-25 15:26:57,221 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 15:26:57,223 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 15:26:57,224 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 15:26:57,227 [P12656/D21/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 15:27:01,035 [P12656/D21/T55] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 15:27:01,450 [P12656/D21/T55] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 15:27:01,546 [P12656/D21/T55] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 15:27:01,732 [P12656/D21/T55] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 15:27:01,784 [P12656/D21/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5220ms)
+ 2017-03-25 15:27:02,662 [P12656/D21/T270] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 15:27:03,461 [P12656/D21/T270] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 15:27:03,463 [P12656/D21/T270] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 15:27:04,534 [P12656/D21/T270] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 15:27:04,539 [P12656/D21/T270] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-03-25 15:27:05,631 [P12656/D21/T270] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:27:13,224 [P12656/D20/T379] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 15:28:03,571 [P12656/D21/T442] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 15:28:03
+ 2017-03-25 15:28:03,746 [P12656/D21/T449] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 15:28:03,749 [P12656/D21/T449] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 15:30:10,974 [P12656/D21/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 15:30:10,979 [P12656/D21/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 15:30:10,997 [P12656/D21/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 15:30:10,998 [P12656/D21/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 15:30:11,000 [P12656/D21/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 15:30:11,002 [P12656/D21/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 15:30:11,029 [P12656/D21/T270] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 15:30:11,037 [P12656/D21/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 15:30:11,037 [P12656/D21/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 15:30:11,041 [P12656/D21/T271] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 15:30:11,042 [P12656/D21/T270] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 15:30:11,042 [P12656/D21/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 15:30:11,043 [P12656/D21/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 15:30:11,043 [P12656/D21/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 15:30:11,043 [P12656/D21/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 15:30:11,078 [P12656/D21/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 15:30:11,079 [P12656/D21/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 15:30:34,330 [P12656/D22/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 15:30:34,360 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 15:30:34,396 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Hash determined (took 36ms)
+ 2017-03-25 15:30:34,490 [P12656/D22/T55] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 15:30:34,491 [P12656/D22/T55] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 15:30:34,515 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 15:30:34,549 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 35ms)
+ 2017-03-25 15:30:34,613 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 15:30:34,615 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 15:30:34,616 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 15:30:34,621 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 15:30:34,641 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 15:30:34,647 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-03-25 15:30:34,648 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 15:30:34,661 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 13ms)
+ 2017-03-25 15:30:34,741 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 15:30:34,742 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 15:30:34,744 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 15:30:34,746 [P12656/D22/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 15:30:38,074 [P12656/D22/T55] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 15:30:38,499 [P12656/D22/T55] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 15:30:38,601 [P12656/D22/T55] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 15:30:38,777 [P12656/D22/T55] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 15:30:38,826 [P12656/D22/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4703ms)
+ 2017-03-25 15:30:39,706 [P12656/D22/T271] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 15:30:40,445 [P12656/D22/T271] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 15:30:40,448 [P12656/D22/T271] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 15:30:41,482 [P12656/D22/T271] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 15:30:41,486 [P12656/D22/T271] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 3ms)
+ 2017-03-25 15:30:42,525 [P12656/D22/T271] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:31:40,564 [P12656/D22/T267] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 15:31:40
+ 2017-03-25 15:31:40,820 [P12656/D22/T442] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 15:31:40,823 [P12656/D22/T442] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 15:31:49,479 [P12656/D22/T177] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:32:04,241 [P12656/D22/T536] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:32:28,704 [P12656/D22/T536] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:32:56,345 [P12656/D22/T48] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:33:10,544 [P12656/D22/T270] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:33:41,545 [P12656/D22/T379] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:34:14,251 [P12656/D22/T270] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:34:17,479 [P12656/D22/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:42:12,893 [P12656/D22/T177] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:43:56,211 [P12656/D22/T272] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:44:29,194 [P12656/D22/T379] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:44:41,740 [P12656/D22/T48] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:45:20,411 [P12656/D22/T442] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:47:40,542 [P12656/D22/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 15:47:40,543 [P12656/D22/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 15:47:40,544 [P12656/D22/T272] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 15:47:40,545 [P12656/D22/T379] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 15:47:40,546 [P12656/D22/T272] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 15:47:40,548 [P12656/D22/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 15:47:40,548 [P12656/D22/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 15:47:40,549 [P12656/D22/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 15:47:40,549 [P12656/D22/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 15:47:40,549 [P12656/D22/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 15:47:40,551 [P12656/D22/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 15:47:40,583 [P12656/D22/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 15:47:40,584 [P12656/D22/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 15:47:40,585 [P12656/D22/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 15:47:40,586 [P12656/D22/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 15:47:40,587 [P12656/D22/T271] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 15:47:40,587 [P12656/D22/T379] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 15:47:59,790 [P12656/D23/T127] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 15:47:59,844 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 15:47:59,899 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Hash determined (took 55ms)
+ 2017-03-25 15:48:00,015 [P12656/D23/T127] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 15:48:00,016 [P12656/D23/T127] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 15:48:00,061 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 15:48:00,107 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 46ms)
+ 2017-03-25 15:48:00,184 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 15:48:00,186 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 15:48:00,187 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 15:48:00,193 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 15:48:00,217 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 15:48:00,224 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-03-25 15:48:00,227 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 15:48:00,242 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 14ms)
+ 2017-03-25 15:48:00,345 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 15:48:00,348 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 15:48:00,349 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 15:48:00,351 [P12656/D23/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 15:48:04,812 [P12656/D23/T127] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 15:48:05,326 [P12656/D23/T127] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 15:48:05,430 [P12656/D23/T127] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 15:48:05,636 [P12656/D23/T127] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 15:48:05,696 [P12656/D23/T127] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6173ms)
+ 2017-03-25 15:48:06,616 [P12656/D23/T244] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 15:48:07,448 [P12656/D23/T244] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 15:48:07,450 [P12656/D23/T244] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 15:48:08,690 [P12656/D23/T244] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 15:48:08,694 [P12656/D23/T244] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-03-25 15:48:09,935 [P12656/D23/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:48:10,609 [P12656/D22/T379] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 15:49:07,595 [P12656/D23/T272] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 15:49:07
+ 2017-03-25 15:49:07,852 [P12656/D23/T449] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 15:49:07,855 [P12656/D23/T449] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 15:55:08,472 [P12656/D23/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 15:55:08,473 [P12656/D23/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 15:55:08,499 [P12656/D23/T271] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 15:55:09,144 [P12656/D23/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 15:55:09,146 [P12656/D23/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 15:55:09,146 [P12656/D23/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 15:55:09,147 [P12656/D23/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 15:55:09,147 [P12656/D23/T536] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 15:55:09,149 [P12656/D23/T536] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 15:55:09,190 [P12656/D23/T48] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 15:55:09,214 [P12656/D23/T48] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 15:55:09,215 [P12656/D23/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 15:55:09,216 [P12656/D23/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 15:55:09,254 [P12656/D23/T244] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 15:55:09,256 [P12656/D23/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 15:55:09,257 [P12656/D23/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 15:55:09,259 [P12656/D23/T536] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 15:55:21,378 [P12656/D24/T127] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 15:55:21,409 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 15:55:21,434 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Hash determined (took 25ms)
+ 2017-03-25 15:55:21,496 [P12656/D24/T127] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 15:55:21,497 [P12656/D24/T127] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 15:55:21,523 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 15:55:21,557 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 33ms)
+ 2017-03-25 15:55:21,628 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 15:55:21,629 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 15:55:21,630 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 15:55:21,636 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 15:55:22,383 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 15:55:22,391 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 8ms)
+ 2017-03-25 15:55:22,393 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 15:55:22,407 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 13ms)
+ 2017-03-25 15:55:22,498 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 15:55:22,501 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 15:55:22,503 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 15:55:22,505 [P12656/D24/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 15:55:25,742 [P12656/D24/T127] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 15:55:26,179 [P12656/D24/T127] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 15:55:26,281 [P12656/D24/T127] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 15:55:26,452 [P12656/D24/T127] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 15:55:26,503 [P12656/D24/T127] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5429ms)
+ 2017-03-25 15:55:27,306 [P12656/D24/T244] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 15:55:28,050 [P12656/D24/T244] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 15:55:28,053 [P12656/D24/T244] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 15:55:29,169 [P12656/D24/T244] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 15:55:29,173 [P12656/D24/T244] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-03-25 15:55:30,208 [P12656/D24/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:55:39,325 [P12656/D23/T48] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 15:55:58,093 [P12656/D24/T272] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:56:01,918 [P12656/D24/T379] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:56:28,166 [P12656/D24/T271] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 15:56:28
+ 2017-03-25 15:56:28,337 [P12656/D24/T269] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 15:56:28,340 [P12656/D24/T269] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 15:56:56,657 [P12656/D24/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:56:59,437 [P12656/D24/T443] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:57:20,317 [P12656/D24/T177] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:57:23,894 [P12656/D24/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:58:13,450 [P12656/D24/T269] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:58:16,587 [P12656/D24/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:58:57,234 [P12656/D24/T443] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 15:59:49,306 [P12656/D24/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:00:03,527 [P12656/D24/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:00:06,290 [P12656/D24/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:00:34,467 [P12656/D24/T536] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:04:19,661 [P12656/D24/T443] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:04:36,410 [P12656/D24/T177] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:04:54,131 [P12656/D24/T269] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:05:57,910 [P12656/D24/T270] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:06:09,637 [P12656/D24/T48] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:06:25,969 [P12656/D24/T536] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:06:40,593 [P12656/D24/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:07:00,697 [P12656/D24/T271] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:07:04,889 [P12656/D24/T269] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:07:31,262 [P12656/D24/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:07:33,923 [P12656/D24/T379] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:08:02,526 [P12656/D24/T272] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:08:05,137 [P12656/D24/T177] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:08:22,166 [P12656/D24/T272] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:08:38,642 [P12656/D24/T379] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:08:41,179 [P12656/D24/T379] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:10:20,782 [P12656/D24/T449] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 16:10:20,813 [P12656/D24/T449] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 16:10:20,842 [P12656/D24/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 16:10:20,843 [P12656/D24/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 16:10:20,843 [P12656/D24/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 16:10:20,844 [P12656/D24/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 16:10:20,845 [P12656/D24/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 16:10:20,846 [P12656/D24/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 16:10:20,857 [P12656/D24/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 16:10:20,862 [P12656/D24/T443] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 16:10:20,879 [P12656/D24/T271] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 16:10:20,892 [P12656/D24/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 16:10:20,893 [P12656/D24/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 16:10:20,893 [P12656/D24/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 16:10:20,894 [P12656/D24/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 16:10:20,896 [P12656/D24/T244] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 16:10:20,898 [P12656/D24/T244] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 16:10:33,510 [P12656/D25/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 16:10:33,640 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 16:10:33,683 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Hash determined (took 43ms)
+ 2017-03-25 16:10:33,777 [P12656/D25/T55] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 16:10:33,778 [P12656/D25/T55] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 16:10:33,801 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 16:10:33,833 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 32ms)
+ 2017-03-25 16:10:33,910 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 16:10:33,912 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 16:10:33,913 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 16:10:33,919 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 16:10:33,940 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 16:10:33,947 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2017-03-25 16:10:33,949 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 16:10:33,981 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 32ms)
+ 2017-03-25 16:10:34,052 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 16:10:34,056 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 3ms)
+ 2017-03-25 16:10:34,057 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 16:10:34,059 [P12656/D25/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 16:10:37,273 [P12656/D25/T55] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 16:10:37,608 [P12656/D25/T55] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 16:10:37,695 [P12656/D25/T55] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 16:10:37,865 [P12656/D25/T55] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 16:10:37,915 [P12656/D25/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4594ms)
+ 2017-03-25 16:10:38,699 [P12656/D25/T271] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 16:10:39,498 [P12656/D25/T271] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 16:10:39,500 [P12656/D25/T271] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 16:10:40,540 [P12656/D25/T271] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 16:10:40,553 [P12656/D25/T271] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 12ms)
+ 2017-03-25 16:10:41,590 [P12656/D25/T271] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:10:45,797 [P12656/D25/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:10:51,025 [P12656/D24/T269] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 16:11:26,390 [P12656/D25/T443] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 16:11:26,391 [P12656/D25/T443] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 16:11:26,423 [P12656/D25/T48] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 16:11:26,439 [P12656/D25/T443] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 16:11:26,440 [P12656/D25/T443] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 16:11:26,440 [P12656/D25/T443] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 16:11:26,441 [P12656/D25/T443] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 16:11:26,441 [P12656/D25/T536] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 16:11:26,443 [P12656/D25/T536] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 16:11:26,777 [P12656/D25/T443] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 16:11:26,778 [P12656/D25/T443] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 16:11:26,778 [P12656/D25/T443] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 16:11:26,779 [P12656/D25/T443] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 16:11:26,779 [P12656/D25/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 16:11:26,782 [P12656/D25/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 16:11:26,785 [P12656/D25/T443] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 16:11:26,793 [P12656/D25/T443] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 16:11:37,665 [P12656/D26/T127] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 16:11:37,697 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 16:11:37,730 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Hash determined (took 33ms)
+ 2017-03-25 16:11:37,810 [P12656/D26/T127] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 16:11:37,810 [P12656/D26/T127] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 16:11:37,830 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 16:11:37,861 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 30ms)
+ 2017-03-25 16:11:37,922 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 16:11:37,925 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2017-03-25 16:11:37,926 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 16:11:37,931 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 16:11:37,951 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 16:11:37,957 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-03-25 16:11:37,958 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 16:11:37,973 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 15ms)
+ 2017-03-25 16:11:38,044 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 16:11:38,046 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 16:11:38,048 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 16:11:38,050 [P12656/D26/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 16:11:41,350 [P12656/D26/T127] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 16:11:41,755 [P12656/D26/T127] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 16:11:41,843 [P12656/D26/T127] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 16:11:42,012 [P12656/D26/T127] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 16:11:42,063 [P12656/D26/T127] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4597ms)
+ 2017-03-25 16:11:42,851 [P12656/D26/T244] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 16:11:43,591 [P12656/D26/T244] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 16:11:43,594 [P12656/D26/T244] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 16:11:44,766 [P12656/D26/T244] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 16:11:44,770 [P12656/D26/T244] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-03-25 16:11:45,834 [P12656/D26/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:11:50,256 [P12656/D26/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:11:56,912 [P12656/D25/T269] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 16:12:22,331 [P12656/D26/T442] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:12:25,720 [P12656/D26/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:12:43,698 [P12656/D26/T267] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 16:12:43
+ 2017-03-25 16:12:43,920 [P12656/D26/T270] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 16:12:43,924 [P12656/D26/T270] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 16:13:42,809 [P12656/D26/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 16:13:42,810 [P12656/D26/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 16:13:42,834 [P12656/D26/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 16:13:42,837 [P12656/D26/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 16:13:42,838 [P12656/D26/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 16:13:42,844 [P12656/D26/T267] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 16:13:42,848 [P12656/D26/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 16:13:42,854 [P12656/D26/T267] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 16:13:42,855 [P12656/D26/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 16:13:42,855 [P12656/D26/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 16:13:42,856 [P12656/D26/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 16:13:42,856 [P12656/D26/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 16:13:42,856 [P12656/D26/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 16:13:42,857 [P12656/D26/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 16:13:42,858 [P12656/D26/T379] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 16:13:42,859 [P12656/D26/T442] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 16:13:42,859 [P12656/D26/T379] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 16:13:54,922 [P12656/D27/T127] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 16:13:54,953 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 16:13:54,991 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Hash determined (took 39ms)
+ 2017-03-25 16:13:55,106 [P12656/D27/T127] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 16:13:55,107 [P12656/D27/T127] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 16:13:55,141 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 16:13:55,183 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 42ms)
+ 2017-03-25 16:13:55,255 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 16:13:55,256 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 16:13:55,258 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 16:13:55,263 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 16:13:55,285 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 16:13:55,292 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-03-25 16:13:55,293 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 16:13:55,309 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 16ms)
+ 2017-03-25 16:13:55,400 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 16:13:55,402 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 16:13:55,404 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 16:13:55,406 [P12656/D27/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 16:13:58,727 [P12656/D27/T127] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 16:13:59,122 [P12656/D27/T127] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 16:13:59,215 [P12656/D27/T127] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 16:13:59,377 [P12656/D27/T127] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 16:13:59,427 [P12656/D27/T127] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4728ms)
+ 2017-03-25 16:14:00,315 [P12656/D27/T379] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 16:14:01,056 [P12656/D27/T379] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 16:14:01,058 [P12656/D27/T379] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 16:14:02,113 [P12656/D27/T379] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 16:14:02,117 [P12656/D27/T379] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-03-25 16:14:03,162 [P12656/D27/T379] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:14:12,967 [P12656/D26/T48] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 16:15:01,225 [P12656/D27/T244] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 16:15:01
+ 2017-03-25 16:15:01,418 [P12656/D27/T177] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 16:15:01,421 [P12656/D27/T177] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 16:39:25,898 [P12656/D27/T222] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:40:13,943 [P12656/D27/T222] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:40:57,233 [P12656/D27/T530] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:41:01,176 [P12656/D27/T528] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:41:55,422 [P12656/D27/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:42:09,138 [P12656/D27/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:42:20,810 [P12656/D27/T528] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:44:03,794 [P12656/D27/T269] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:53:38,489 [P12656/D27/T404] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 16:53:38,490 [P12656/D27/T404] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 16:53:38,491 [P12656/D27/T404] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 16:53:38,492 [P12656/D27/T404] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 16:53:38,493 [P12656/D27/T404] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 16:53:38,493 [P12656/D27/T404] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 16:53:38,494 [P12656/D27/T404] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 16:53:38,494 [P12656/D27/T404] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 16:53:38,494 [P12656/D27/T404] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 16:53:38,495 [P12656/D27/T404] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 16:53:38,493 [P12656/D27/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 16:53:38,493 [P12656/D27/T427] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 16:53:38,496 [P12656/D27/T425] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 16:53:38,497 [P12656/D27/T427] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 16:53:38,496 [P12656/D27/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 16:53:38,531 [P12656/D27/T404] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 16:53:38,534 [P12656/D27/T404] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 16:54:08,605 [P12656/D27/T425] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 16:54:20,004 [P12656/D28/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 16:54:20,035 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 16:54:20,071 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Hash determined (took 36ms)
+ 2017-03-25 16:54:20,149 [P12656/D28/T55] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 16:54:20,150 [P12656/D28/T55] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 16:54:20,174 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 16:54:20,219 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 44ms)
+ 2017-03-25 16:54:20,284 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 16:54:20,285 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 16:54:20,286 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 16:54:20,292 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 16:54:20,311 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 16:54:20,318 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2017-03-25 16:54:20,319 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 16:54:20,332 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 13ms)
+ 2017-03-25 16:54:20,409 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 16:54:20,412 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 16:54:20,413 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 16:54:20,414 [P12656/D28/T55] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-03-25 16:54:24,201 [P12656/D28/T55] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 16:54:24,625 [P12656/D28/T55] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 16:54:24,720 [P12656/D28/T55] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 16:54:24,990 [P12656/D28/T55] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 16:54:25,043 [P12656/D28/T55] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5235ms)
+ 2017-03-25 16:54:25,890 [P12656/D28/T404] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 16:54:26,640 [P12656/D28/T404] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 16:54:26,643 [P12656/D28/T404] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 16:54:27,769 [P12656/D28/T404] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 16:54:27,773 [P12656/D28/T404] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-03-25 16:54:28,892 [P12656/D28/T404] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 16:55:26,735 [P12656/D28/T413] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 16:55:26
+ 2017-03-25 16:55:26,906 [P12656/D28/T413] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 16:55:26,910 [P12656/D28/T413] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 17:07:51,502 [P12656/D28/T436] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:08:50,880 [P12656/D28/T227] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:09:20,062 [P12656/D28/T453] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:09:27,777 [P12656/D28/T233] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:10:17,461 [P12656/D28/T233] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:10:20,334 [P12656/D28/T218] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:11:01,024 [P12656/D28/T6] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:11:03,885 [P12656/D28/T386] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:11:09,374 [P12656/D28/T384] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:13:06,444 [P12656/D28/T386] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:13:09,287 [P12656/D28/T384] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:17:57,315 [P12656/D28/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:22:32,710 [P12656/D28/T363] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 17:22:32,743 [P12656/D28/T363] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 17:22:32,748 [P12656/D28/T363] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 17:22:32,749 [P12656/D28/T363] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 17:22:32,750 [P12656/D28/T363] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 17:22:32,750 [P12656/D28/T363] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 17:22:32,751 [P12656/D28/T363] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 17:22:32,751 [P12656/D28/T363] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 17:22:32,752 [P12656/D28/T363] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 17:22:32,752 [P12656/D28/T363] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 17:22:32,754 [P12656/D28/T270] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 17:22:32,754 [P12656/D28/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 17:22:32,755 [P12656/D28/T442] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 17:22:32,754 [P12656/D28/T449] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 17:22:33,080 [P12656/D28/T363] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 17:22:33,081 [P12656/D28/T363] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 17:22:33,082 [P12656/D28/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 17:23:02,073 [P12656/D29/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 17:23:02,106 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 17:23:02,143 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 37ms)
+ 2017-03-25 17:23:02,240 [P12656/D29/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 17:23:02,241 [P12656/D29/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 17:23:02,263 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 17:23:02,298 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 35ms)
+ 2017-03-25 17:23:02,371 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 17:23:02,373 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 17:23:02,374 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 17:23:02,380 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-03-25 17:23:02,453 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 17:23:02,460 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2017-03-25 17:23:02,461 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 17:23:02,476 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 14ms)
+ 2017-03-25 17:23:02,573 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 17:23:02,576 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 2ms)
+ 2017-03-25 17:23:02,577 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 17:23:02,579 [P12656/D29/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 17:23:03,180 [P12656/D28/T298] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 17:23:08,638 [P12656/D29/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 17:23:09,067 [P12656/D29/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 17:23:09,161 [P12656/D29/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 17:23:09,426 [P12656/D29/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 17:23:09,507 [P12656/D29/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 7674ms)
+ 2017-03-25 17:23:10,419 [P12656/D29/T286] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 17:23:11,183 [P12656/D29/T286] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 17:23:11,186 [P12656/D29/T286] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 17:23:12,571 [P12656/D29/T286] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 17:23:12,576 [P12656/D29/T286] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 4ms)
+ 2017-03-25 17:23:13,657 [P12656/D29/T286] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:24:02,263 [P12656/D29/T277] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:24:09,998 [P12656/D29/T287] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:24:11,352 [P12656/D29/T272] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 17:24:11
+ 2017-03-25 17:24:11,512 [P12656/D29/T244] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 17:24:11,515 [P12656/D29/T244] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 17:24:23,008 [P12656/D29/T272] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:24:28,568 [P12656/D29/T277] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:25:13,108 [P12656/D29/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:25:18,022 [P12656/D29/T293] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:25:26,383 [P12656/D29/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:25:28,781 [P12656/D29/T290] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:26:53,538 [P12656/D29/T196] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:26:56,756 [P12656/D29/T287] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:27:06,231 [P12656/D29/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:27:09,181 [P12656/D29/T272] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:28:58,505 [P12656/D29/T286] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:29:01,263 [P12656/D29/T196] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:29:24,096 [P12656/D29/T293] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:30:14,602 [P12656/D29/T272] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:30:16,981 [P12656/D29/T286] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:30:38,163 [P12656/D29/T286] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:31:45,404 [P12656/D29/T290] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:35:27,475 [P12656/D29/T286] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-03-25 17:35:27,476 [P12656/D29/T286] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-03-25 17:35:27,490 [P12656/D29/T286] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-03-25 17:35:27,498 [P12656/D29/T277] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-03-25 17:35:27,500 [P12656/D29/T286] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-03-25 17:35:27,831 [P12656/D29/T286] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-03-25 17:35:27,831 [P12656/D29/T286] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-03-25 17:35:27,832 [P12656/D29/T286] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-03-25 17:35:27,832 [P12656/D29/T196] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-03-25 17:35:27,833 [P12656/D29/T286] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-03-25 17:35:27,835 [P12656/D29/T286] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-03-25 17:35:27,835 [P12656/D29/T286] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-03-25 17:35:27,836 [P12656/D29/T286] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-03-25 17:35:27,836 [P12656/D29/T286] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-03-25 17:35:27,835 [P12656/D29/T293] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-03-25 17:35:27,837 [P12656/D29/T298] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-03-25 17:35:27,837 [P12656/D29/T272] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-03-25 17:35:47,591 [P12656/D30/T127] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.6.0-beta application starting on SIMON-FLEX15D
+ 2017-03-25 17:35:47,624 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-03-25 17:35:47,665 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Hash determined (took 41ms)
+ 2017-03-25 17:35:47,755 [P12656/D30/T127] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-03-25 17:35:47,756 [P12656/D30/T127] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-03-25 17:35:47,779 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-03-25 17:35:47,817 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 38ms)
+ 2017-03-25 17:35:47,883 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-03-25 17:35:47,885 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2017-03-25 17:35:47,887 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-03-25 17:35:47,893 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
+ 2017-03-25 17:35:47,913 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-03-25 17:35:47,920 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-03-25 17:35:47,921 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-03-25 17:35:47,935 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 14ms)
+ 2017-03-25 17:35:48,024 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-03-25 17:35:48,027 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 3ms)
+ 2017-03-25 17:35:48,028 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-03-25 17:35:48,030 [P12656/D30/T127] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 2ms)
+ 2017-03-25 17:35:51,348 [P12656/D30/T127] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-03-25 17:35:51,799 [P12656/D30/T127] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-03-25 17:35:51,904 [P12656/D30/T127] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-03-25 17:35:52,077 [P12656/D30/T127] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-03-25 17:35:52,128 [P12656/D30/T127] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4773ms)
+ 2017-03-25 17:35:52,916 [P12656/D30/T363] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://adcreo1.web.local:80/umbraco (UmbracoModule request)
+ 2017-03-25 17:35:53,668 [P12656/D30/T363] INFO  umbraco.content - Load Xml from file...
+ 2017-03-25 17:35:53,670 [P12656/D30/T363] INFO  umbraco.content - Loaded Xml from file.
+ 2017-03-25 17:35:54,704 [P12656/D30/T363] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-03-25 17:35:54,710 [P12656/D30/T363] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 5ms)
+ 2017-03-25 17:35:55,724 [P12656/D30/T363] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:35:57,952 [P12656/D29/T287] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-03-25 17:36:14,041 [P12656/D30/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:36:27,299 [P12656/D30/T196] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:36:40,009 [P12656/D30/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:36:53,774 [P12656/D30/T277] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-03-24 17:36:53
+ 2017-03-25 17:36:53,943 [P12656/D30/T298] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-03-25 17:36:53,947 [P12656/D30/T298] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-03-25 17:37:33,949 [P12656/D30/T196] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:40:43,540 [P12656/D30/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:41:14,297 [P12656/D30/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:41:17,506 [P12656/D30/T287] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:41:38,945 [P12656/D30/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:41:54,832 [P12656/D30/T293] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:41:59,735 [P12656/D30/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:42:12,371 [P12656/D30/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:42:15,122 [P12656/D30/T287] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:42:53,226 [P12656/D30/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:43:09,120 [P12656/D30/T298] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:43:43,965 [P12656/D30/T286] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:44:35,096 [P12656/D30/T277] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:45:16,099 [P12656/D30/T287] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:45:48,115 [P12656/D30/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:45:51,418 [P12656/D30/T270] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:45:57,819 [P12656/D30/T270] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:46:00,623 [P12656/D30/T277] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:46:48,770 [P12656/D30/T363] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:47:25,247 [P12656/D30/T286] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:47:27,999 [P12656/D30/T298] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:47:46,534 [P12656/D30/T363] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:48:31,968 [P12656/D30/T287] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:48:35,158 [P12656/D30/T442] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:49:41,647 [P12656/D30/T363] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:49:46,516 [P12656/D30/T290] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:50:07,513 [P12656/D30/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:50:11,173 [P12656/D30/T286] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:50:33,943 [P12656/D30/T270] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:51:22,467 [P12656/D30/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:51:35,636 [P12656/D30/T293] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:57:28,605 [P12656/D30/T287] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:57:31,408 [P12656/D30/T277] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:58:14,311 [P12656/D30/T287] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 17:58:18,467 [P12656/D30/T363] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:23:45,383 [P12656/D30/T293] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:24:40,613 [P12656/D30/T290] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:24:49,882 [P12656/D30/T286] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:27:15,583 [P12656/D30/T363] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:27:18,782 [P12656/D30/T293] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:29:47,136 [P12656/D30/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:29:53,169 [P12656/D30/T293] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:30:52,661 [P12656/D30/T442] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:31:59,908 [P12656/D30/T298] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:32:02,357 [P12656/D30/T363] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:33:57,994 [P12656/D30/T196] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:34:35,211 [P12656/D30/T298] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:35:17,053 [P12656/D30/T293] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:35:21,511 [P12656/D30/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:35:40,934 [P12656/D30/T363] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:36:36,793 [P12656/D30/T196] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:36:49,658 [P12656/D30/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:37:08,418 [P12656/D30/T293] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:37:23,080 [P12656/D30/T442] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:37:46,648 [P12656/D30/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:38:51,248 [P12656/D30/T196] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:38:56,822 [P12656/D30/T290] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:39:15,848 [P12656/D30/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:52:37,731 [P12656/D30/T404] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:53:01,409 [P12656/D30/T290] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:53:25,254 [P12656/D30/T413] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:53:46,766 [P12656/D30/T286] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:54:28,774 [P12656/D30/T298] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:55:04,377 [P12656/D30/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:56:06,018 [P12656/D30/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:56:39,133 [P12656/D30/T286] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:57:14,577 [P12656/D30/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:57:36,389 [P12656/D30/T298] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:57:52,052 [P12656/D30/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 18:58:07,367 [P12656/D30/T413] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:21:00,563 [P12656/D30/T287] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type about matches a locally declared controller of type Adcreo.Controllers.AboutController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:21:17,590 [P12656/D30/T191] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:23:34,678 [P12656/D30/T363] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:24:17,146 [P12656/D30/T270] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:24:46,923 [P12656/D30/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:25:07,333 [P12656/D30/T449] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:25:24,124 [P12656/D30/T413] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:25:48,541 [P12656/D30/T277] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:27:48,856 [P12656/D30/T277] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:30:28,984 [P12656/D30/T290] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:33:04,262 [P12656/D30/T267] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:35:07,854 [P12656/D30/T244] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-03-25 20:37:46,330 [P12656/D30/T270] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.

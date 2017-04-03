@@ -1,0 +1,226 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<List<NavigationListItemModel>>
+@using Adcreo.Models;
+
+@*  Header  *@
+
+<div id="home" class="container-fluid p-0 m-0">
+    <div class="row p-0 m-0">
+        <nav id="header" class="navbar navbar-toggleable-sm fixed-top p-0 m-0">
+            <div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon hamburger-color"></span>
+                </button>
+                <a class="navbar-brand company-logo py-0 px-5" href="#">ADCREO<div class="company-logo-tagline">Website Design and Development</div></a>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="nav navbar-nav p-0">
+                    @RenderChildItems(Model)
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+@helper RenderChildItems(List<NavigationListItemModel> listItems)
+{
+if (listItems != null)
+
+{
+    foreach (var item in listItems)
+    {
+            if (item.HasChildren)
+            {
+                <li class="nav-item dropdown">
+                    @* Menu 1 *@
+                    <a href="@item.Link.Url" class="nav-link py-0 sliding-u-l-r @(Umbraco.AssignedContentItem.Url == item.Link.Url ? "active" : null)"
+                       >@item.Link.Text</a>
+                    <ul class="dropdown-menu">
+                        @RenderDropDownItems(item.Items)
+                    </ul>
+
+                </li>
+            }
+            else
+            {
+                <li class="nav-item justify-content-end">
+                    @* Home *@
+                    <a href="@item.Link.Url" class="nav-link py-0 sliding-u-l-r @(Umbraco.AssignedContentItem.Url == item.Link.Url ? "active" : null)">@item.Link.Text</a>
+                </li>
+            }   
+    }
+}
+}
+
+@helper RenderDropDownItems(List<NavigationListItemModel> listItems)
+{
+foreach (var item in listItems)
+{
+        if (item.HasChildren)
+        {
+            <li class="dropdown-submenu">
+                @* Dropdown 1/2/3 *@
+                <a href="@item.Link.Url" class="nav-link py-0 sliding-u-l-r dropdown-toggle @(Umbraco.AssignedContentItem.Url == item.Link.Url ? "active" : null)"
+                   data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@item.Link.Text<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    @RenderDropDownItems(item.Items)
+                </ul>
+            </li>
+        }
+        else
+        {
+            @* Action 1 *@
+            <li><a href="@item.Link.Url" class="sliding-u-l-r dropdown-item">@item.Link.Text</a></li>
+        }
+}
+}
+
+@****************************************************************************************************@
+
+
+@*@if (item.HasChildren)
+    {
+        <li class="nav-item dropdown">
+            <a href="@item.Link.Url" class="nav-link py-0 sliding-u-l-r dropdown-toggle @(Umbraco.AssignedContentItem.Url == item.Link.Url ? "active" : null)"
+               data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" target="@item.Link.Target">@item.Link.Text</a>
+            @RenderDropDownItems(item.Items)
+        </li>
+    }
+    else
+    {
+        <div class="dropdown-menu">
+            <a href="@item.Link.Url" class="dropdown-item sliding-u-l-r @(Umbraco.AssignedContentItem.Url == item.Link.Url ? "active" : null)"></a>
+            }
+        </div>
+    }*@
+@*@helper RenderChildItems(List<NavigationListItemModel> listItems)
+    {
+    if (listItems != null)
+    {
+        foreach (var item in listItems)
+        {
+                <li class="nav-item justify-content-end">
+                    @if (!String.IsNullOrEmpty(item.Text))
+                    {
+                        @item.Text
+                    }
+                    else if (item.Link != null)
+                    {
+                        <a href="@item.Link.Url" class="nav-link py-0 sliding-u-l-r @(Umbraco.AssignedContentItem.Url == item.Link.Url ? "active" : null) @(item.HasChildren ? "dropdown-toggle" : null)" target="@item.Link.Target">@item.Link.Text</a>
+                    }
+
+                    @if (item.HasChildren)
+                    {
+                        <ul class="dropdown-item">
+                            @RenderChildItems(item.Items)
+                        </ul>
+                    }
+                </li>
+        }
+    }
+    }*@
+
+
+
+
+
+
+@*<div id="home" class="container-fluid p-0 m-0">
+        <div class="row p-0 m-0">
+            <nav id="header" class="navbar navbar-toggleable-md fixed-top">
+                <div>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="modal" data-target="#navbarCollapse"
+                            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon hamburger-color"></span>
+                    </button>
+                    <a class="navbar-brand company-logo py-0" href="#">ADCREO<div class="company-logo-tagline">Website Design and Development</div></a>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <ul class="nav navbar-nav p-0">
+                        @RenderChildItems(Model)
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    @helper RenderChildItems(List<NavigationListItemModel> listItems)
+    {
+    if (listItems != null)
+    {
+        foreach (var item in listItems)
+        {
+                <li class="nav-item">
+                    @if (!String.IsNullOrEmpty(item.Text))
+                    {
+                        @item.Text
+                    }
+                    else if (item.Link != null)
+                    {
+                        <a href="@item.Link.Url" class="nav-link py-0 sliding-u-l-r @(Umbraco.AssignedContentItem.Url == item.Link.Url ? "active" : null) @(item.HasChildren ? "fh5co-sub-ddown" : null)" target="@item.Link.Target">@item.Link.Text</a>
+                    }
+
+                    @if (item.HasChildren)
+                    {
+                        <ul class="sub-menu">
+                            @RenderChildItems(item.Items)
+                        </ul>
+                    }
+                </li>
+        }
+    }
+    }*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<div id="home" class="container-fluid">
+        <div class="row">
+            <nav id="header" class="navbar navbar-toggleable-md fixed-top">
+                <div>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon hamburger-color"></span>
+                    </button>
+                    <a class="navbar-brand company-logo py-0" href="#">ADCREO<div class="company-logo-tagline">Website Design and Development</div></a>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <ul class="nav navbar-nav p-0">
+                        <li class="nav-item"><a class="nav-link py-0 sliding-u-l-r" href="/">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link py-0 sliding-u-l-r" href="/about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link py-0 sliding-u-l-r" href="/services">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link py-0 sliding-u-l-r" href="/blog">BLOG</a></li>
+                        <li class="nav-item"><a class="nav-link py-0 sliding-u-l-r" href="/contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>*@
