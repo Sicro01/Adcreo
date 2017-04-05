@@ -21,7 +21,8 @@ namespace Adcreo.Controllers
 
         public ActionResult RenderFooter()
         {
-            return PartialView(PartialViewPath(_footerPartialViewName));
+            List<NavigationListItemModel> nav = GetObjectFromCache<List<NavigationListItemModel>>("mainNav", 5, GetNavigationModelFromDatabase);
+            return PartialView(PartialViewPath(_footerPartialViewName), nav);
         }
 
         /// <summary>
@@ -30,7 +31,6 @@ namespace Adcreo.Controllers
         /// <returns>Partial view with a model</returns>
         public ActionResult RenderHeader()
         {
-            //List<NavigationListItem> nav = GetNavigationModelFromDatabase();
             List<NavigationListItemModel> nav = GetObjectFromCache<List<NavigationListItemModel>>("mainNav", 5, GetNavigationModelFromDatabase);
             return PartialView(PartialViewPath(_headerPartialViewName), nav);
         }

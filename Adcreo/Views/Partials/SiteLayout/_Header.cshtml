@@ -29,11 +29,17 @@ if (listItems != null)
 {
     foreach (var item in listItems)
     {
-            if (item.HasChildren)
+        var linkUrl = item.Link.Url;
+
+        if (item.HasChildren)
+        {
+            if (@item.Link.Text == "Services")
             {
+                    linkUrl = "#";
+            }
                 <li class="nav-item dropdown">
                     @* Menu 1 *@
-                    <a href="@item.Link.Url" class="nav-link py-0 sliding-u-l-r @(Umbraco.AssignedContentItem.Url == item.Link.Url ? "active" : null)"
+                    <a href="@linkUrl" class="nav-link py-0 -slide-white-50 @(Umbraco.AssignedContentItem.Url == linkUrl ? "active" : null)"
                        >@item.Link.Text</a>
                     <ul class="dropdown-menu">
                         @RenderDropDownItems(item.Items)
@@ -45,7 +51,7 @@ if (listItems != null)
             {
                 <li class="nav-item justify-content-end">
                     @* Home *@
-                    <a href="@item.Link.Url" class="nav-link py-0 sliding-u-l-r @(Umbraco.AssignedContentItem.Url == item.Link.Url ? "active" : null)">@item.Link.Text</a>
+                    <a href="@linkUrl" class="nav-link py-0 -slide-white-50 @(Umbraco.AssignedContentItem.Url == linkUrl ? "active" : null)">@item.Link.Text</a>
                 </li>
             }   
     }
@@ -56,11 +62,11 @@ if (listItems != null)
 {
 foreach (var item in listItems)
 {
-        if (item.HasChildren)
-        {
+    if (item.HasChildren)
+    {
             <li class="dropdown-submenu">
                 @* Dropdown 1/2/3 *@
-                <a href="@item.Link.Url" class="nav-link py-0 sliding-u-l-r dropdown-toggle @(Umbraco.AssignedContentItem.Url == item.Link.Url ? "active" : null)"
+                <a href="@item.Link.Url" class="nav-link py-0 -slide-white-50 dropdown-toggle @(Umbraco.AssignedContentItem.Url == item.Link.Url ? "active" : null)"
                    data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@item.Link.Text<b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     @RenderDropDownItems(item.Items)
@@ -70,7 +76,7 @@ foreach (var item in listItems)
         else
         {
             @* Action 1 *@
-            <li><a href="@item.Link.Url" class="sliding-u-l-r dropdown-item">@item.Link.Text</a></li>
+            <li><a href="@item.Link.Url" class="-slide-berry-50 dropdown-item">@item.Link.Text</a></li>
         }
 }
 }

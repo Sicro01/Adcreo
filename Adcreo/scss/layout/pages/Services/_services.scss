@@ -6,6 +6,7 @@
     position: relative;
     margin: 0 0 800px;
     padding: 20% 20px;
+    @include grad(90deg, $brand-body-bg1, $brand-body-bg2);
     z-index: 5;
 }
 
@@ -13,7 +14,7 @@
     position: relative;
     margin: -800px 0 800px;
     padding: 20% 20px;
-    @include grad(90deg, white, white);
+    @include grad(90deg, white, red);
     z-index: 4;
 }
 
@@ -43,12 +44,13 @@
 }
 
 .poly2-box {
-     position: absolute;
+    position: absolute;
     /*@extend .poly1-box;*/
     margin: 3% 5% 0 0;
     background-color: $brand-body-bg2;
     width: 30%;
 }
+
 .services-bottom {
     margin-top: -550px;
 }

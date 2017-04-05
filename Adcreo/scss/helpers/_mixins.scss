@@ -222,6 +222,33 @@ $breakpoints1: ( 'xsmall' : ( min-width: 480px ), 'small' : ( min-width: 768px )
     }
 }
 
+/************************************/
+/* Sliding Underline  Formatting    */
+/************************************/
+@mixin sliding-u-l-r($width, $color) {
+    display: inline-block;
+
+    &:after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 0;
+        background: transparent;
+        transition: width .5s ease, background-color .5s ease;
+    }
+
+    &:hover:after {
+        width: $width;
+        background: $color;
+    }
+}
+.-slide-white-50 {
+    @include sliding-u-l-r(50%, $brand-white);
+}
+.-slide-berry-50 {
+    @include sliding-u-l-r(50%, $brand-accent-color1);
+}
+
 @mixin icomoon() {
     font-family: 'icomoon';
     speak: none;
@@ -276,7 +303,7 @@ $breakpoints1: ( 'xsmall' : ( min-width: 480px ), 'small' : ( min-width: 768px )
 }
 
 @mixin grad($direction, $gradients...) {
-    background: $brand-body-bg2; /* For browsers that do not support gradients */ 
+    background: $brand-body-bg2; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient($direction, $gradients); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient($direction, $gradients); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient($direction, $gradients); /* For Firefox 3.6 to 15 */

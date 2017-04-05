@@ -120,12 +120,6 @@
     @include brand-button($small-size, $brand-secondary, $brand-accent-color1, $brand-accent-color2);
 }
 
-/*.card-button {
-    @extend .brand-button;
-    padding: 0.75rem;
-    background-color: $brand-accent-color2;
-}*/
-
 .card > [class*="icon"] {
     color: $brand-accent-color1;
 }

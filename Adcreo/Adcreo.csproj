@@ -353,6 +353,7 @@
     <Content Include="Media\Design Image 3.jpg" />
     <Content Include="Media\Design Image.jpg" />
     <Content Include="Media\information-transfer-technology-website-header.jpg" />
+    <Content Include="Media\luis-llerena-16892.png" />
     <Content Include="Media\mindmap-2123973__340.jpg" />
     <Content Include="Media\stock-vector-vector-background-abstract-technology-communication-concept-275897564.jpg" />
     <Content Include="Media\women-success.jpg" />
@@ -466,6 +467,11 @@
     <Content Include="Views\WebsiteDesignAndBuild.cshtml" />
     <Content Include="Views\Partials\WebSIteDesignAndBuild\_WebsiteDesignAndBuildView.cshtml" />
     <Content Include="scss\layout\pages\WebSiteDesignAndBuild\_websitedesignandbuildservice.scss" />
+    <Content Include="Views\Design.cshtml" />
+    <Content Include="Views\Development.cshtml" />
+    <Content Include="Views\Support.cshtml" />
+    <Content Include="Views\Partials\Services\_DesignSection.cshtml" />
+    <Content Include="scss\layout\pages\Services\_designservice.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3793,6 +3799,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\DesignController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Controllers\SiteLayoutController.cs" />
@@ -3827,6 +3834,7 @@
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="scss\themes\vendors\" />
     <Folder Include="Views\About\" />
+    <Folder Include="Views\Design\" />
     <Folder Include="Views\Home\" />
     <Folder Include="Views\MacroPartials\" />
     <Folder Include="Views\Services\" />

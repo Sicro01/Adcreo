@@ -1,11 +1,17 @@
-﻿<footer>
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<List<NavigationListItemModel>>
+@using Adcreo.Models;
+
+@* Footer *@
+
+<footer>
     <div class="footer-section">
         <div class="footer-column-1">
             <div class="footer-item-column-1">
                 <h3>ADCREO</h3>
             </div>
             <div class="footer-detail-font">
-                <a class="sliding-u-l-r smoothScroll" href="#home">HOME</a>
+                @RenderChildItems(Model)
+                @*<a class="sliding-u-l-r smoothScroll" href="#home">HOME</a>
                 &nbsp;·&nbsp;
                 <a class="sliding-u-l-r" href="#">ABOUT</a>
                 &nbsp;·&nbsp;
@@ -13,7 +19,7 @@
                 &nbsp;·&nbsp;
                 <a class="sliding-u-l-r" href="#">BLOG</a>
                 &nbsp;·&nbsp;
-                <a class="sliding-u-l-r" href="#">CONTACT</a>
+                <a class="sliding-u-l-r" href="#">CONTACT</a>*@
             </div>
         </div>
         <div class="footer-column-2">
@@ -26,7 +32,7 @@
             </div>
             <div class="footer-item-column-2 footer-detail-font">
                 <span class="fa fa-envelope"></span>
-                <a href="mailto:support@adcreo.com">&nbsp;hello@adcreo.com</a>
+                <a href="mailto:hello@adcreo.com">&nbsp;hello@adcreo.com</a>
             </div>
         </div>
         <div class="footer-column-3">
@@ -34,10 +40,10 @@
                 <h3>Follow us on social media:</h3>
             </div>
             <div class="footer-detail-font">
-                <a href="#"><span class="fa fa-facebook">&nbsp;·&nbsp;</span></a>
-                <a href="#"><span class="fa fa-twitter">&nbsp;·&nbsp;</span></a>
-                <a href="#"><span class="fa fa-linkedin">&nbsp;·&nbsp;</span></a>
-                <a href="#"><span class="fa fa-github"></span></a>
+                <a href="#"><span class="fa fa-facebook bullet"></span></a><span class="bullet"></span>
+                <a href="#"><span class="fa fa-twitter bullet"></span></a><span class="bullet"></span>
+                <a href="#"><span class="fa fa-linkedin bullet"></span></a><span class="bullet"></span>
+                <a href="#"><span class="fa fa-github bullet"></span></a><span class="bullet"></span>
             </div>
         </div>
     </div>
@@ -45,3 +51,20 @@
 <div class="container-fluid p-0">
     <p class="footer-copyright">ADCREO &copy; @DateTime.Now.Year - All Rights Reserved</p>
 </div>
+
+@helper RenderChildItems(List<NavigationListItemModel> listItems)
+{
+if (listItems != null)
+
+{
+    foreach (var item in listItems)
+    {
+        var linkUrl = item.Link.Url;
+        if (@item.Link.Text == "Services")
+        {
+            linkUrl = "#home";
+        }
+            <a href="@linkUrl" class="-slide-white-50 smoothScroll">@item.Link.Text</a><span class="bullet"></span>
+        }
+    }
+}

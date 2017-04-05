@@ -5,42 +5,29 @@
 /*ul .dropdown-menu li a {
     font-size: $small-font-size;
     background-color: transparent !important;
-}*/
-
+}*/ 
 .nav > .nav-item > ul > li > a {
-    color: $brand-secondary;
+    color: $brand-accent-color1;
     font-size: $small-font-size;
     font-weight: normal;
-    background-color: transparent !important;
+    /*background: linear-gradient( rgba(0, 10, 64, 0.8), rgba(0, 10, 64, 0.8)) no-repeat top center fixed;*/
+    /*background: linear-gradient( rgba(181,37,42,0.8),rgba(181,37,42,0.8)) no-repeat top center fixed;*/
+    /*background: linear-gradient( rgba(255,255,255,0.8),rgba(255,255,255,0.8)) no-repeat top center fixed*/
+    background: linear-gradient( rgba(178,190,181,0.8),rgba(178,190,181,0.8)) no-repeat top center fixed;
+    padding: 3px;
+    width: 75%;
 }
-
-/*.dropdown-item {
-    font-size: $small-font-size;
-    left: -50px;
-    color: red;
-}*/
 
 .dropdown-menu {
     content: "";
-    /*height: 100%;*/
-    height: 75%;
-    vertical-align: top;
-    left: -30px;
-    top: 45px;
-    /*width: 0;*/
-    position: absolute;
-    transition: all 0.3s ease 0s;
-    /*background: $brand-accent-color3;*/
-    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) no-repeat top center fixed;
+    top: 25px;
     border: none;
     @include border-radius(0);
 }
 
 .dropdown:hover > .dropdown-menu {
-    left: -50px;
-    width: 175px;
     display: block;
-    height: 100px;
+    background-color: transparent !important;
 }
 
 /*.dropdown-submenu {
@@ -108,8 +95,8 @@
 }
 
 .navbar {
-    min-height: 0%;
-    line-height: 3rem;
+    /*min-height: 0%;
+    line-height: 3rem;*/
     height: 50px;
 }
 
@@ -214,11 +201,12 @@
 /* Navbar Item Formatting */
 
 li.nav-item a {
-    color: $brand-white;
     font-family: $brand-font-family;
     font-weight: $regular;
-    font-size: $brand-font-size;
-    line-height: 2rem;
+}
+
+.active {
+    color: $brand-accent-color1 !important;
 }
 
 li.nav-item:hover a {
@@ -242,6 +230,10 @@ li.nav-item:hover a {
             text-align: center;
             color: $brand-white;
             font-size: $large-font-size;
+        }
+
+        .nav-item.active {
+            color: $brand-accent-color1;
         }
     }
 }

@@ -19,7 +19,7 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "e19c2098d3623c16")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "f5416c20eaa19775")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
 
 namespace Umbraco.Web.PublishedContentModels
@@ -288,16 +288,16 @@ namespace Umbraco.Web.PublishedContentModels
 		public static string GetWeAreAboutTitle(IWeAreAboutControls that) { return that.GetPropertyValue<string>("weAreAboutTitle"); }
 	}
 
-	/// <summary>Website Design And Build</summary>
-	[PublishedContentModel("websiteDesignAndBuild")]
-	public partial class WebsiteDesignAndBuild : Services
+	/// <summary>Design</summary>
+	[PublishedContentModel("design")]
+	public partial class Design : Services
 	{
 #pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "websiteDesignAndBuild";
+		public new const string ModelTypeAlias = "design";
 		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
 #pragma warning restore 0109
 
-		public WebsiteDesignAndBuild(IPublishedContent content)
+		public Design(IPublishedContent content)
 			: base(content)
 		{ }
 
@@ -308,7 +308,59 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 #pragma warning restore 0109
 
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<WebsiteDesignAndBuild, TValue>> selector)
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Design, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+	}
+
+	/// <summary>Development</summary>
+	[PublishedContentModel("development")]
+	public partial class Development : Services
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "development";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Development(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Development, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+	}
+
+	/// <summary>Support</summary>
+	[PublishedContentModel("support")]
+	public partial class Support : Services
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "support";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Support(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Support, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
