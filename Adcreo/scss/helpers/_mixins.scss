@@ -222,9 +222,9 @@ $breakpoints1: ( 'xsmall' : ( min-width: 480px ), 'small' : ( min-width: 768px )
     }
 }
 
-/************************************/
-/* Sliding Underline  Formatting    */
-/************************************/
+/*****************************************/
+/* Hover Sliding Underline Formatting    */
+/*****************************************/
 @mixin sliding-u-l-r($width, $color) {
     display: inline-block;
 

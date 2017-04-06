@@ -120,6 +120,15 @@
     @include brand-button($small-size, $brand-secondary, $brand-accent-color1, $brand-accent-color2);
 }
 
+.contact-button {
+    @include brand-button($medium-size, $brand-secondary, $brand-accent-color1, $brand-accent-color2);
+}
+
+.home-services-contact {
+    text-align: center;
+    margin-top: 30px;
+}
+
 .card > [class*="icon"] {
     color: $brand-accent-color1;
 }

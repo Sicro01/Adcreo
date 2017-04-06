@@ -4,22 +4,6 @@
 AOS.init({
     duration: 1200,
 })
-
-//
-// Set menu selection active
-//
-//$(".sf-menu a").on("click", function () {
-//    $(".sf-menu").find(".active").removeClass("active");
-//    $(this).parent().addClass("active");
-//});
-//
-// Initilise SuperFish Menu
-//
-//jQuery(document).ready(function () {
-//    jQuery('ul.sf-menu').superfish({
-//        pathClass: 'current'
-//    });
-//});
 //
 // Smooth Scrolling
 //
@@ -63,6 +47,62 @@ $(document).ready(function () {
         $('#header').removeClass('homepage-header-background-scroll');
     }
 });
+
+$('.flex-item-tagline-border-top').hide().fadeIn(5000);
+
+
+//$('#startchange')
+//    .animate(
+//    { borderWidth: 1, Opacity: 0, borderColor: '#fff' },
+//    {
+//        duration: 500,
+//        easing: 'easeInSine'
+//    })
+//.animate(
+//    { borderWidth: 5, Opacity: 1 },
+//    {
+//        duration: 5000,
+//        easing: 'linear'
+//    })
+//;
+
+
+
+//$("#startchange").animate({
+//    borderLeftColor: "white",
+//    borderTopColor: "white",
+//    borderRightColor: "white",
+//    borderBottomColor: "white",
+//}, 10000);
+
+$(document).ready(function () {
+    window.setTimeout(function () {
+        $("#startchange").addClass("flex-item-tagline-border-top", 3000, "easeOutBounce");
+        $("#startchange").addClass("flex-item-tagline-border-right", 3000, "easeOutBounce");
+        $("#startchange").addClass("flex-item-tagline-border-bottom", 3000, "easeOutBounce");
+        $("#startchange").addClass("flex-item-tagline-border-left",3000, "easeOutBounce");
+        
+    }, 500);   
+});
+
+//$(document).ready(function () {
+//    window.setTimeout(function () {
+//        $("#startchange").addClass("flex-item-tagline-border-top", 500, "easeInElastic");
+//        $("#startchange").addClass("flex-item-tagline-border-bottom", 1000, "easeOutBounce");
+//        $("#startchange").addClass("flex-item-tagline-border-left", 1500, "easeOutBounce");
+//        $("#startchange").addClass("flex-item-tagline-border-right", 2000, "easeOutBounce");
+//    }, 2000);   
+//});
+
+//$(document).ready(function () {
+//    window.setTimeout(function () {
+//        $("#startchange").addClass("flex-item-tagline-border-top");
+//        $("#startchange").addClass("flex-item-tagline-border-bottom");
+//        $("#startchange").addClass("flex-item-tagline-border-left");
+//        $("#startchange").addClass("flex-item-tagline-border-right");
+//    }, 3000);
+//});
+
 //
 // Change browser tab title when user moves off Adcreo tab 
 //

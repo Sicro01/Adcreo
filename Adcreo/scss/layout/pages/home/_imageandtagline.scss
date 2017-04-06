@@ -19,7 +19,8 @@
     font-weight: 900;
     color: #ffffff;
     width: 50%;
-    /*margin: -50% 0 auto;*/
+    border: 1px solid rgba(255,255,255,0);
+        
 
     @include respond-to(xsmall) {
         font-size: $brand-font-size * 2;
@@ -41,6 +42,30 @@
         font-size: $brand-font-size * 4;
     }
 }
+
+
+.flex-item-tagline-border-top {
+    border-top: 1px solid white;
+    
+}
+
+.flex-item-tagline-border-bottom {
+    border-bottom: 1px solid white;
+}
+
+.flex-item-tagline-border-left {
+    border-left: 1px solid white;
+}
+
+.flex-item-tagline-border-right {
+    border-right: 1px solid white;
+}
+
+.flex-item-tagline:hover:after {
+    content: "";
+    border-top: 1px solid white;
+}
+
 .flex-item-tagline > [class*="icon"] {
     color: lawngreen;
 }
@@ -61,7 +86,7 @@
 }
 
 .bounce {
-    animation: bounce 2s ease-in-out;
+    animation: bounce 5s ease-in-out 3;
 }
 
 @-webkit-keyframes bounce {
