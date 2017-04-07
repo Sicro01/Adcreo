@@ -10,8 +10,8 @@
     color: $brand-secondary;
     position: relative;
     border-top: 1px solid $brand-secondary;
-    ;
 }
+
 .bullet:not(:last-child):after {
     content: " •";
 }
@@ -70,9 +70,10 @@
     @include flexbox();
     @include flex-flow(column wrap);
     @include justify-content(center);
-    padding-top: 20px;
+    @include align-items(center);
     padding-left: 10px;
     text-align: center;
+    padding: 50px 0;
 
     @include mappy-bp(max xsmall) {
         @include flex(1 1 100%);
@@ -121,10 +122,13 @@
 }
 
 .footer-item {
-    @include flexbox();
+    /*@include flexbox();
+    @include flex-flow(column wrap);
     @include align-items(center);
-    @include justify-content(center);
-    height: 40px;
+    @include justify-content(space-around);*/
+    /*padding: 60px 0 60px 0;*/
+    /*background-color: red;*/
+    /*padding: 20px 0;*/
 }
 
 .footer-item-column-1 {
@@ -133,7 +137,6 @@
 
 .footer-item-column-2 {
     @extend .footer-item;
-    height: 80px;
 }
 
 .footer-item-column-3 {

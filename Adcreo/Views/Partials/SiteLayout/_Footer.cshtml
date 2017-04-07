@@ -6,39 +6,20 @@
 <footer>
     <div class="footer-section">
         <div class="footer-column-1">
-            <div class="footer-item-column-1">
-                <h3>ADCREO</h3>
-            </div>
+            <h3>ADCREO</h3>
             <div class="footer-detail-font">
                 @RenderChildItems(Model)
-                @*<a class="sliding-u-l-r smoothScroll" href="#home">HOME</a>
-                &nbsp;·&nbsp;
-                <a class="sliding-u-l-r" href="#">ABOUT</a>
-                &nbsp;·&nbsp;
-                <a class="sliding-u-l-r" href="#">SERVICES</a>
-                &nbsp;·&nbsp;
-                <a class="sliding-u-l-r" href="#">BLOG</a>
-                &nbsp;·&nbsp;
-                <a class="sliding-u-l-r" href="#">CONTACT</a>*@
             </div>
         </div>
         <div class="footer-column-2">
-            <div class="footer-item-column-2">
-                <h3>Contact us:</h3>
-            </div>
+            <h3>Contact us:</h3>
             <div class="footer-detail-font">
                 <span class="fa fa-phone">&nbsp;</span>
                 <span class="footer-detail">07912 848831</span>
             </div>
-            <div class="footer-item-column-2 footer-detail-font">
-                <span class="fa fa-envelope"></span>
-                <a href="mailto:hello@adcreo.com">&nbsp;hello@adcreo.com</a>
-            </div>
         </div>
         <div class="footer-column-3">
-            <div class="footer-item-column-3">
-                <h3>Follow us on social media:</h3>
-            </div>
+            <h3>Follow us on social media:</h3>
             <div class="footer-detail-font">
                 <a href="#"><span class="fa fa-facebook bullet"></span></a><span class="bullet"></span>
                 <a href="#"><span class="fa fa-twitter bullet"></span></a><span class="bullet"></span>
@@ -64,7 +45,7 @@ if (listItems != null)
         {
             linkUrl = "#home";
         }
-            <a href="@linkUrl" class="-slide-white-50 smoothScroll">@item.Link.Text</a><span class="bullet"></span>
-        }
+        <a href="@linkUrl" class="-slide-white-50 smoothScroll">@item.Link.Text</a><span class="bullet"></span>
     }
+}
 }

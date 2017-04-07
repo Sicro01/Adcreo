@@ -2,69 +2,83 @@
 /* Design Service Overview Page Formatting*/
 /******************************************/
 
-.poly1 {
+/* Set the margin-top to equal the height of the navbar */
+.design-services-poly1 {
     position: relative;
     @include flexbox();
     @include flex-flow(column wrap);
-    @include justify-content(flex-start);
+    @include justify-content(center);
     @include align-items(center);
     margin-left: 0;
     margin-right: 0;
-    margin-top: 50px;
+    margin-top: 45px;
     width: 100%;
     height: 600px;
-    background: url('../../../../Media/luis-llerena-16892.png') no-repeat top center fixed;
+    background-image: linear-gradient(rgba(181,37,42,0.5),rgba(181,37,42,0.5)), url('../../../../Media/luis-llerena-16892.png');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }
 
-.box1 {
-    position: relative;
-    @include flexbox();
-    @include flex-flow(column wrap);
-    @include justify-content(flex-start);
-    @include align-items(center);
-    height: 500px;
-    background-color: aqua;
-}
-
-.poly2 {
-    position: relative;
-    margin: 0px 0 200px;
-    height: 600px;
-    background-color: blue;
-    /*padding: 20% 20px;
-    /*@include grad(90deg, white, red);
-    z-index: 4;
-}
-
-.poly3 {
-    margin: -200px 0 800px;
-    padding: 20% 20px;
-    @include grad(90deg, $brand-body-bg2, $brand-body-bg1);
-    z-index: 3;
-}
-
-.poly1-box {
-    /*background: linear-gradient( rgba(0, 10, 64, 0.5), rgba(0, 10, 64, 0.5)) no-repeat center center fixed;*/
-    position: relative;
-    /*margin: -8% 25% 0px 25%;*/
-    width: 100%;
-    text-align: center;
-}
-
-.quote {
+.design-services-poly1-quote {
     text-align: center;
     font-size: $large-font-size;
     font-weight: $bold;
     color: $brand-secondary;
 }
 
-.quote-author {
-    /*line-height: 1rem;*/
+.design-services-poly1-quote-author {
+    line-height: 1rem;
     color: white;
     text-align: center;
 }
+
+.design-services-box1 {
+    /*position: relative;*/
+    height: 600px;
+    /*margin: -8% 25% 0px 25%;*/
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/*.box1 {
+    position: relative;
+    @include flexbox();
+    @include flex-flow(column wrap);
+    @include justify-content(flex-start);
+    @include align-items(center);
+    height: 800px;
+}*/
+
+/*.poly2 {
+    position: relative;
+    margin: 0px 0 200px;
+    height: 600px;
+    background-color: blue;
+    padding: 20% 20px;
+    @include grad(90deg, white, red);
+    z-index: 4;
+}*/
+
+/*.poly3 {
+    margin: -200px 0 800px;
+    padding: 20% 20px;
+    @include grad(90deg, $brand-body-bg2, $brand-body-bg1);
+    z-index: 3;
+}*/
+
+/*.poly1-box {
+    background: linear-gradient( rgba(0, 10, 64, 0.5), rgba(0, 10, 64, 0.5)) no-repeat center center fixed;
+    position: relative;
+    margin: -8% 25% 0px 25%;
+    width: 100%;
+    text-align: center;
+}*/
+
+
+
+
 
 /*.poly2-box {
     position: absolute;
@@ -72,8 +86,8 @@
     margin: 3% 5% 0 0;
     background-color: $brand-body-bg2;
     width: 30%;
-}*/
+}
 
-/*.design-services-bottom {
-    margin-top: -550px;
+.design-services-bottom {
+    margin-top: -550p;
 }*/

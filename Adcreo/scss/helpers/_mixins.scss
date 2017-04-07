@@ -242,11 +242,32 @@ $breakpoints1: ( 'xsmall' : ( min-width: 480px ), 'small' : ( min-width: 768px )
         background: $color;
     }
 }
+
 .-slide-white-50 {
     @include sliding-u-l-r(50%, $brand-white);
 }
+
 .-slide-berry-50 {
     @include sliding-u-l-r(50%, $brand-accent-color1);
+}
+
+/*****************************************/
+/* Underline Middle of Word Formatting   */
+/*****************************************/
+@mixin underline-middle() {
+    display: inline-block;
+    padding-bottom: 1px;
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 10%;
+        height: 1px;
+        bottom: 0;
+        left: 45%;
+        border-bottom: 3px solid $brand-secondary;
+    }
 }
 
 @mixin icomoon() {

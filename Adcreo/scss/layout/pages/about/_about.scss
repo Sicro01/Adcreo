@@ -8,7 +8,7 @@
     color: $brand-secondary;
     font-size: $large-font-size * 2;
 }
-
+/* Set the margin-top to equal the height of the navbar */
 .about-section-top {
     @include flexbox();
     @include flex-flow(column wrap);
@@ -16,7 +16,7 @@
     @include align-items(center);
     margin-left: 0;
     margin-right: 0;
-    margin-top: 50px;
+    margin-top: 45px;
     width: 100%;
     height: 600px;
     background: url('../../../../Media/information-transfer-technology-website-header.jpg') no-repeat top center fixed;
@@ -60,7 +60,6 @@
 }
 
 .about-reason-box-text-title {
-    @extend .sliding-u-l-r;
     display: block;
     color: $brand-accent-color1;
     font-size: $large-font-size;

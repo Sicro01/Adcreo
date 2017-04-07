@@ -67,7 +67,7 @@
 }
 
 .flex-item-tagline > [class*="icon"] {
-    color: lawngreen;
+    color: $brand-body-bg1;
 }
 
 .flex-container-arrow {
@@ -86,7 +86,7 @@
 }
 
 .bounce {
-    animation: bounce 5s ease-in-out 3;
+    animation: bounce 3s ease-in-out 2;
 }
 
 @-webkit-keyframes bounce {

@@ -2,17 +2,13 @@
 /* Navbar Formatting            */
 /********************************/
 
-/*ul .dropdown-menu li a {
-    font-size: $small-font-size;
-    background-color: transparent !important;
-}*/ 
+//
+// Format the dropdown sub-menu items
+//
 .nav > .nav-item > ul > li > a {
     color: $brand-accent-color1;
     font-size: $small-font-size;
     font-weight: normal;
-    /*background: linear-gradient( rgba(0, 10, 64, 0.8), rgba(0, 10, 64, 0.8)) no-repeat top center fixed;*/
-    /*background: linear-gradient( rgba(181,37,42,0.8),rgba(181,37,42,0.8)) no-repeat top center fixed;*/
-    /*background: linear-gradient( rgba(255,255,255,0.8),rgba(255,255,255,0.8)) no-repeat top center fixed*/
     background: linear-gradient( rgba(178,190,181,0.8),rgba(178,190,181,0.8)) no-repeat top center fixed;
     padding: 3px;
     width: 75%;
@@ -20,7 +16,7 @@
 
 .dropdown-menu {
     content: "";
-    top: 25px;
+    top: 20px;
     border: none;
     @include border-radius(0);
 }
@@ -29,55 +25,6 @@
     display: block;
     background-color: transparent !important;
 }
-
-/*.dropdown-submenu {
-    position: relative;
-    color:red;
-}
-
-.dropdown-submenu>.dropdown-menu {
-    top: 0;
-    left: 100%;
-    margin-top: -6px;
-    margin-left: -1px;
-    -webkit-border-radius: 0 6px 6px 6px;
-    -moz-border-radius: 0 6px 6px;
-    border-radius: 0 6px 6px 6px;
-}
-
-.dropdown-submenu:hover>.dropdown-menu {
-    display: block;
-}
-
-.dropdown-submenu>a:after {
-    display: block;
-    content: " ";
-    float: right;
-    width: 0;
-    height: 0;
-    border-color: transparent;
-    border-style: solid;
-    border-width: 5px 0 5px 5px;
-    border-left-color: #ccc;
-    margin-top: 5px;
-    margin-right: -10px;
-}
-
-.dropdown-submenu:hover>a:after {
-    border-left-color: #fff;
-}
-
-.dropdown-submenu.pull-left {
-    float: none;
-}
-
-.dropdown-submenu.pull-left>.dropdown-menu {
-    left: -100%;
-    margin-left: 10px;
-    -webkit-border-radius: 6px 0 6px 6px;
-    -moz-border-radius: 6px 0 6px 6px;
-    border-radius: 6px 0 6px 6px;
-}*/
 
 .homepage-header-background-start {
     filter: 10px;
@@ -91,13 +38,17 @@
 }
 
 .otherpages-header-background {
-    background-color: $brand-header-color;
+    background-color: $brand-dark-gray;
 }
 
 .navbar {
     /*min-height: 0%;
     line-height: 3rem;*/
-    height: 50px;
+    height: 45px;
+}
+
+.nav-link {
+    font-size: $small-font-size * 1.25;
 }
 
 .navbar-brand:hover {
@@ -149,7 +100,7 @@
     }
 }
 
-.company-logo-tagline {
+/*.company-logo-tagline {
 
     @include mappy-bp(max xsmall) {
         font-size: $brand-font-size * 0.5;
@@ -174,7 +125,7 @@
     @include mappy-bp(xlarge) {
         font-size: $brand-font-size * 0.5;
     }
-}
+}*/
 
 /* Collapsed Navbar - Hamburger formatting */
 
@@ -206,7 +157,9 @@ li.nav-item a {
 }
 
 .active {
-    color: $brand-accent-color1 !important;
+    @include underline-middle();
+    /*border-bottom: 1px solid white;*/
+    /*color: $brand-accent-color1 !important;*/
 }
 
 li.nav-item:hover a {
@@ -237,3 +190,52 @@ li.nav-item:hover a {
         }
     }
 }
+
+/*.dropdown-submenu {
+    position: relative;
+    color:red;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}*/

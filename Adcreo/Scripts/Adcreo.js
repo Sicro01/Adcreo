@@ -48,39 +48,16 @@ $(document).ready(function () {
     }
 });
 
-$('.flex-item-tagline-border-top').hide().fadeIn(5000);
-
-
-//$('#startchange')
-//    .animate(
-//    { borderWidth: 1, Opacity: 0, borderColor: '#fff' },
-//    {
-//        duration: 500,
-//        easing: 'easeInSine'
-//    })
-//.animate(
-//    { borderWidth: 5, Opacity: 1 },
-//    {
-//        duration: 5000,
-//        easing: 'linear'
-//    })
-//;
-
-
-
-//$("#startchange").animate({
-//    borderLeftColor: "white",
-//    borderTopColor: "white",
-//    borderRightColor: "white",
-//    borderBottomColor: "white",
-//}, 10000);
+//
+// Draw a box slowly around the home page tagline
+//
 
 $(document).ready(function () {
     window.setTimeout(function () {
-        $("#startchange").addClass("flex-item-tagline-border-top", 3000, "easeOutBounce");
-        $("#startchange").addClass("flex-item-tagline-border-right", 3000, "easeOutBounce");
-        $("#startchange").addClass("flex-item-tagline-border-bottom", 3000, "easeOutBounce");
-        $("#startchange").addClass("flex-item-tagline-border-left",3000, "easeOutBounce");
+        $("#startchange").addClass("flex-item-tagline-border-top", 1000, "easeOutBounce");
+        $("#startchange").addClass("flex-item-tagline-border-right", 1000, "easeOutBounce");
+        $("#startchange").addClass("flex-item-tagline-border-bottom", 1000, "easeOutBounce");
+        $("#startchange").addClass("flex-item-tagline-border-left",1000, "easeOutBounce");
         
     }, 500);   
 });
