@@ -396,6 +396,7 @@
     <Content Include="Media\information-transfer-technology-website-header.jpg" />
     <Content Include="Media\luis-llerena-16892.png" />
     <Content Include="Media\mindmap-2123973__340.jpg" />
+    <Content Include="Media\responsive-1166833_640.png" />
     <Content Include="Media\stock-vector-vector-background-abstract-technology-communication-concept-275897564.jpg" />
     <Content Include="Media\women-success.jpg" />
     <Content Include="packages.config" />
@@ -505,7 +506,7 @@
     <Content Include="scss\layout\pages\about\_about.scss" />
     <Content Include="Views\Partials\About\_AboutSection.cshtml" />
     <Content Include="scss\layout\pages\Services\_services.scss" />
-    <Content Include="Views\Partials\Services\_ServicesSection.cshtml" />
+    <Content Include="Views\Partials\Services\_oldServicesSection.cshtml" />
     <Content Include="Views\WebsiteDesignAndBuild.cshtml" />
     <Content Include="Views\Partials\WebSIteDesignAndBuild\_WebsiteDesignAndBuildView.cshtml" />
     <Content Include="scss\layout\pages\WebSiteDesignAndBuild\_websitedesignandbuildservice.scss" />
@@ -515,6 +516,9 @@
     <Content Include="Views\Partials\Services\_DesignSection.cshtml" />
     <Content Include="scss\layout\pages\Services\_designservice.scss" />
     <Content Include="Scripts\jquery-1.12.4.min.map" />
+    <Content Include="Views\BusinessConsultancy.cshtml" />
+    <Content Include="Views\Partials\Services\_BusinessConsultancy.cshtml" />
+    <Content Include="scss\layout\pages\Services\_businessconsultancyservice.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3842,6 +3846,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\BusinessConsultancyController.cs" />
     <Compile Include="Controllers\DesignController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ServicesController.cs" />
@@ -3877,6 +3882,7 @@
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="scss\themes\vendors\" />
     <Folder Include="Views\About\" />
+    <Folder Include="Views\BusinessConsultancy\" />
     <Folder Include="Views\Design\" />
     <Folder Include="Views\Home\" />
     <Folder Include="Views\MacroPartials\" />

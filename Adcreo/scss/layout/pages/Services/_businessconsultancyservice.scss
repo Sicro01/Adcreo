@@ -1,10 +1,10 @@
-﻿/******************************************/
-/* Design Service Overview Page Formatting*/
-/******************************************/
+﻿/***********************************************/
+/* Business Consultancy Service Page Formatting*/
+/***********************************************/
 
 /* Set the margin-top to equal the height of the navbar */
-.design-services-poly1 {
-    position: relative;
+
+.businessconsultancy-services-poly1 {
     @include flexbox();
     @include flex-flow(column wrap);
     @include justify-content(center);
@@ -19,20 +19,22 @@
     clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }
 
-.design-services-poly1-quote {
+.businessconsultancy-services-poly1-title {
+    font-size: $large-font-size * 2;
+    font-weight: $bold;
+    color: $brand-secondary;
+    width: 100%;
     text-align: center;
+    padding: 0 0 100px 0;
+}
+
+.businessconsultancy-services-poly1-quote {
     font-size: $large-font-size;
     font-weight: $bold;
     color: $brand-secondary;
 }
 
-.design-services-poly1-quote-author {
-    line-height: 1rem;
-    color: white;
-    text-align: center;
-}
-
-.design-services-box1 {
+.businessconsultancy-services-box1 {
     @include flexbox();
     @include flex-flow(row wrap);
     @include justify-content(space-around);
@@ -42,7 +44,7 @@
     padding: 30px 0;
 }
 
-.design-responsive-image {
+.businessconsultancy-responsive-image {
     width: 600px;
     height: 600px;
     box-sizing: border-box !important;
@@ -50,7 +52,7 @@
     margin-bottom: 20px;
 }
 
-.design-service-text-box {
+.businessconsultancy-service-text-box {
     @include flexbox();
     @include flex-flow(column wrap);
     @include justify-content(flex-start);
@@ -58,7 +60,7 @@
     @include flex(0 0 auto);
     padding: 10px;
     width: 1000px;
-    height: 950px;
+    height: 1000px;
     /*border: 1px solid black;*/
     font-weight: $bold;
     /*line-height: 1.5rem;*/
@@ -67,28 +69,29 @@
     border-radius: 0;
 }
 
-.design-service-text-box-title {
+.businessconsultancy-service-text-box-title {
     color: $brand-accent-color2;
     letter-spacing: 20px;
     font-size: $large-font-size;
     text-align: center;
 }
 
-.design-service-text-box-text {
+.businessconsultancy-service-text-box-text {
     font-size: $regular-font-size;
     text-align: left;
     color: $brand-primary;
 }
 
-.design-service-text-box-text p {
+.businessconsultancy-service-text-box-text p {
     font-size: $regular-font-size;
 }
 
-.design-service-text-box-text li {
+.businessconsultancy-service-text-box-text li {
     font-weight: $regular;
     font-size: $regular-font-size;
 }
-.design-service-text-box-text a {
+
+.businessconsultancy-service-text-box-text a {
     font-weight: $regular;
     font-size: $regular-font-size;
     color: $brand-black;
@@ -140,6 +143,6 @@
     width: 30%;
 }
 
-.design-services-bottom {
+.businessconsultancy-services-bottom {
     margin-top: -550p;
 }*/

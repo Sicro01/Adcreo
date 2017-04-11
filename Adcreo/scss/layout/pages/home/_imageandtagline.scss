@@ -19,7 +19,7 @@
     font-weight: 900;
     color: #ffffff;
     width: 50%;
-    border: 1px solid rgba(255,255,255,0);
+    border: 1px solid rgba(255,255,255,1);
         
 
     @include respond-to(xsmall) {
@@ -86,7 +86,7 @@
 }
 
 .bounce {
-    animation: bounce 3s ease-in-out 2;
+    animation: bounce 3s ease-in-out 1;
 }
 
 @-webkit-keyframes bounce {

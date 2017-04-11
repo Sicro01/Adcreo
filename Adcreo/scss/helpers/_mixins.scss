@@ -222,9 +222,9 @@ $breakpoints1: ( 'xsmall' : ( min-width: 480px ), 'small' : ( min-width: 768px )
     }
 }
 
-/*****************************************/
-/* Hover Sliding Underline Formatting    */
-/*****************************************/
+/*******************************************************/
+/* Hover Sliding Underline Formatting -Left to Right   */
+/*******************************************************/
 @mixin sliding-u-l-r($width, $color) {
     display: inline-block;
 
@@ -251,6 +251,39 @@ $breakpoints1: ( 'xsmall' : ( min-width: 480px ), 'small' : ( min-width: 768px )
     @include sliding-u-l-r(50%, $brand-accent-color1);
 }
 
+/*******************************************************/
+/* Hover Sliding Underline Formatting - Middle Out     */
+/*******************************************************/
+@mixin sliding-middle-out($color) {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+
+    &:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 3px;
+        width: 0px;
+        background: transparent;
+        transition: width .5s ease, background-color .5s ease;
+    }
+
+    &:hover:after {
+        width: 100%;
+        background: $color;
+    }
+}
+
+.-slide-middle-out-white {
+    @include sliding-middle-out($brand-white);
+}
+
+.-slide-middle-out-berry {
+    @include sliding-middle-out($brand-accent-color1);
+}
+
+
 /*****************************************/
 /* Underline Middle of Word Formatting   */
 /*****************************************/
@@ -264,9 +297,9 @@ $breakpoints1: ( 'xsmall' : ( min-width: 480px ), 'small' : ( min-width: 768px )
         position: absolute;
         width: 10%;
         height: 1px;
-        bottom: 0;
+        top: 5px;
         left: 45%;
-        border-bottom: 3px solid $brand-secondary;
+        border-top: 3px solid $brand-secondary;
     }
 }
 

@@ -18,11 +18,10 @@ $('a[href^="#"]').on('click', function (event) {
 });
 //
 // Change header styling
-//
+// //$('#header').addClass('homepage-header-background-start');
+// if length is < 2 must be the home page
 $(document).ready(function () {
     var urlPathName = window.location.pathname;
-    // if length is < 2 must be the home page
-    $('#header').addClass('homepage-header-background-start');
     if (urlPathName.length < 2) {
         var scroll_start = 0;
         var startchange = $('#startchange');
@@ -52,15 +51,15 @@ $(document).ready(function () {
 // Draw a box slowly around the home page tagline
 //
 
-$(document).ready(function () {
-    window.setTimeout(function () {
-        $("#startchange").addClass("flex-item-tagline-border-top", 1000, "easeOutBounce");
-        $("#startchange").addClass("flex-item-tagline-border-right", 1000, "easeOutBounce");
-        $("#startchange").addClass("flex-item-tagline-border-bottom", 1000, "easeOutBounce");
-        $("#startchange").addClass("flex-item-tagline-border-left",1000, "easeOutBounce");
-        
-    }, 500);   
-});
+//$(document).ready(function () {
+//    window.setTimeout(function () {
+//        $("#startchange").addClass("flex-item-tagline-border-top", 1000, "easeOutBounce");
+//        $("#startchange").addClass("flex-item-tagline-border-right", 1000, "easeOutBounce");
+//        $("#startchange").addClass("flex-item-tagline-border-bottom", 1000, "easeOutBounce");
+//        $("#startchange").addClass("flex-item-tagline-border-left", 1000, "easeOutBounce");
+
+//    }, 500);
+//});
 
 //$(document).ready(function () {
 //    window.setTimeout(function () {
