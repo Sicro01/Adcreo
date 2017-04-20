@@ -6,9 +6,11 @@
 /* Colors                        */
 /********************************/
 /* Named Colors */
+/*rgb(28, 30, 38)*/
 /*$brand-header-color:$brand-dark-gray;*/
 /*rgba(181,37,42,0.8)*/
 /* rgba(0, 10, 64, 0.8) */
+/* rgb(239, 219, 125) */
 /*$brand-body-bg1: #fff;
 $brand-body-bg2: #31AFD4;
 $brand-body-bg3: #1c1e26;*/
@@ -1705,10 +1707,16 @@ li.nav-item:hover a {
   -ms-align-items: center;
   align-items: center;
   text-align: center;
-  padding: 10px;
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) no-repeat top center fixed;
-  max-width: 500px;
-  max-height: 350px; }
+  margin-top: 30px;
+  padding: 60px;
+  background: linear-gradient(rgba(239, 219, 125, 0.8), rgba(239, 219, 125, 0.8)) no-repeat top center fixed;
+  /*background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) no-repeat top center fixed;*/
+  max-width: 475px;
+  max-height: 400px;
+  clip-path: polygon(0 20%, 100% 5%, 100% 85%, 0 100%); }
+  .about-reasons-box a:link, .about-reasons-box a:visited, .about-reasons-box a:hover, .about-reasons-box a:focus, .about-reasons-box a:active {
+    color: #B5252A;
+    text-decoration: none; }
   @media all and (max-width: 35.9375em) {
     .about-reasons-box {
       -webkit-box-flex: auto;
@@ -1778,7 +1786,6 @@ li.nav-item:hover a {
       font-size: 2.5rem; } }
 
 .about-reason-box-text-tagline {
-  margin-top: -30px;
   color: #1c1e26;
   font-size: 1.5rem;
   text-decoration: none !important;
@@ -1914,14 +1921,14 @@ li.nav-item:hover a {
   border-top: 1px solid #FFFFFF; }
 
 .faq-title-row {
-  height: 150px; }
+  height: 175px; }
 
 #QnA > div:nth-last-of-type(1) {
   padding-bottom: 50px; }
 
 .faq-title-text {
   padding-top: 10px;
-  letter-spacing: 20px;
+  letter-spacing: 40px;
   font-size: 2.5rem;
   font-weight: 600;
   color: #EFDB7D; }
@@ -1930,7 +1937,8 @@ li.nav-item:hover a {
   font-size: 2.5rem;
   letter-spacing: normal;
   font-weight: 600;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  padding-bottom: 30px; }
 
 .faq-QA-row {
   padding: 10px; }
@@ -2032,22 +2040,25 @@ li.nav-item:hover a {
   -moz-flex-flow: column wrap;
   -ms-flex-flow: column wrap;
   flex-flow: column wrap;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
   margin-left: 0;
   margin-right: 0;
   margin-top: 45px;
   width: 100%;
-  height: 600px;
-  background-image: linear-gradient(rgba(181, 37, 42, 0.5), rgba(181, 37, 42, 0.5)), url("../../../../Media/luis-llerena-16892.png");
-  background-size: cover;
+  height: 1000px;
+  /*background-image: linear-gradient(rgba(181,37,42,0.5),rgba(181,37,42,0.5)), url('../../../../Media/luis-llerena-16892.png');*/
+  /*background-image: linear-gradient(rgba(181,37,42,0.5),rgba(181,37,42,0.5)), url('../../../../Media/iStock-495193237.jpg');*/
+  background: linear-gradient(rgba(181, 37, 42, 0.5), rgba(181, 37, 42, 0.5)), url("../../../../Media/iStock-495193237.jpg") no-repeat;
+  background-size: 100% 100%;
+  /*background-size: cover;*/
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%); }
 
 .businessconsultancy-services-poly1-title {
@@ -2056,12 +2067,22 @@ li.nav-item:hover a {
   color: #FFFFFF;
   width: 100%;
   text-align: center;
-  padding: 0 0 100px 0; }
+  padding-bottom: 20px; }
 
 .businessconsultancy-services-poly1-quote {
-  font-size: 2.5rem;
+  -webkit-align-self: flex-start;
+  -moz-align-self: flex-start;
+  -ms-align-self: flex-start;
+  align-self: flex-start;
+  background-image: linear-gradient(rgba(181, 37, 42, 0.7), rgba(181, 37, 42, 0.7));
+  text-align: left;
+  font-size: 1.5rem;
   font-weight: 600;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 16%;
+  margin-left: 10px; }
 
 .businessconsultancy-services-box1 {
   display: -webkit-box;
@@ -2132,7 +2153,7 @@ li.nav-item:hover a {
   border-radius: 0; }
 
 .businessconsultancy-service-text-box-title {
-  color: #000A40;
+  color: #B5252A;
   letter-spacing: 20px;
   font-size: 2.5rem;
   text-align: center; }
@@ -2210,25 +2231,37 @@ li.nav-item:hover a {
   -moz-flex-flow: column wrap;
   -ms-flex-flow: column wrap;
   flex-flow: column wrap;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
   margin-left: 0;
   margin-right: 0;
   margin-top: 45px;
   width: 100%;
   height: 600px;
-  background-image: linear-gradient(rgba(181, 37, 42, 0.5), rgba(181, 37, 42, 0.5)), url("../../../../Media/luis-llerena-16892.png");
+  background-image: linear-gradient(rgba(28, 30, 38, 0.5), rgba(28, 30, 38, 0.5)), url("../../../../Media/luis-llerena-16892.png");
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%); }
 
+.design-services-poly1-title {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px; }
+
 .design-services-poly1-quote {
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  -ms-align-self: center;
+  align-self: center;
   text-align: center;
   font-size: 2.5rem;
   font-weight: 600;
@@ -2237,7 +2270,11 @@ li.nav-item:hover a {
 .design-services-poly1-quote-author {
   line-height: 1rem;
   color: white;
-  text-align: center; }
+  text-align: center;
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  -ms-align-self: center;
+  align-self: center; }
 
 .design-services-box1 {
   display: -webkit-box;

@@ -1,0 +1,2 @@
+﻿ 2017-04-14 14:37:40,925 [P5796/D2/T136] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type businessConsultancy matches a locally declared controller of type Adcreo.Controllers.BusinessConsultancyController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-04-14 15:37:01,468 [P5796/D2/T177] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-13 15:37:01

@@ -29,10 +29,20 @@
     @include justify-content(space-between);
     @include align-items(center);
     text-align: center;
-    padding: 10px;
-    background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) no-repeat top center fixed;
-    max-width: 500px;
-    max-height: 350px;
+    margin-top: 30px;
+    padding: 60px;
+    background: linear-gradient( rgba(239, 219, 125, 0.8), rgba(239, 219, 125, 0.8)) no-repeat top center fixed;
+    /*background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) no-repeat top center fixed;*/
+    max-width: 475px;
+    max-height: 400px;
+    clip-path: polygon(0 20%, 100% 5%, 100% 85%, 0 100%);
+
+    a {
+        &:link, &:visited, &:hover, &:focus, &:active {
+            color: $brand-accent-color1;
+            text-decoration: none;
+        }
+    }
 
     @include mappy-bp(max xsmall) {
         @include flex(auto);
@@ -66,6 +76,8 @@
     font-weight: $bold;
     line-height: 2rem;
 
+
+
     @include mappy-bp(max xsmall) {
         font-size: $large-font-size * 0.8;
     }
@@ -92,7 +104,6 @@
 }
 
 .about-reason-box-text-tagline {
-    margin-top: -30px;
     color: $brand-primary;
     font-size: $regular-font-size;
     text-decoration: none !important;
@@ -242,7 +253,7 @@
 }
 
 .faq-title-row {
-    height: 150px;
+    height: 175px;
 }
 
 #QnA > div:nth-last-of-type(1) {
@@ -251,7 +262,7 @@
 
 .faq-title-text {
     padding-top: 10px;
-    letter-spacing: 20px;
+    letter-spacing: 40px;
     font-size: $large-font-size;
     font-weight: $bold;
     color: $brand-accent-color3;
@@ -262,6 +273,7 @@
     letter-spacing: normal;
     font-weight: $bold;
     color: $brand-secondary;
+    padding-bottom: 30px;
 }
 
 .faq-QA-row {

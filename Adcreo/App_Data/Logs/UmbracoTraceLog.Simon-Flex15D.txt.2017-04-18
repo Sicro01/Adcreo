@@ -1,0 +1,4 @@
+﻿ 2017-04-18 08:46:51,081 [P11956/D6/T460] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-17 08:46:50
+ 2017-04-18 08:48:00,097 [P11956/D6/T457] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-04-18 14:50:38,041 [P11956/D6/T423] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-04-18 15:44:04,614 [P11956/D6/T387] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-17 15:44:04

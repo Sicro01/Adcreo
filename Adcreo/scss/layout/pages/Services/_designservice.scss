@@ -7,19 +7,29 @@
     position: relative;
     @include flexbox();
     @include flex-flow(column wrap);
-    @include justify-content(center);
-    @include align-items(center);
+    @include justify-content(flex-start);
+    @include align-items(flex-start);
     margin-left: 0;
     margin-right: 0;
     margin-top: 45px;
     width: 100%;
     height: 600px;
-    background-image: linear-gradient(rgba(181,37,42,0.5),rgba(181,37,42,0.5)), url('../../../../Media/luis-llerena-16892.png');
+    background-image: linear-gradient(rgba(28, 30, 38,0.5),rgba(28, 30, 38,0.5)), url('../../../../Media/luis-llerena-16892.png');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }
 
+.design-services-poly1-title {
+    font-size: $large-font-size * 2;
+    font-weight: $bold;
+    color: $brand-secondary;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
 .design-services-poly1-quote {
+    @include align-self(center);
     text-align: center;
     font-size: $large-font-size;
     font-weight: $bold;
@@ -30,6 +40,7 @@
     line-height: 1rem;
     color: white;
     text-align: center;
+    @include align-self(center);
 }
 
 .design-services-box1 {
