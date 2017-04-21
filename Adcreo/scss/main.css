@@ -2219,6 +2219,9 @@ li.nav-item:hover a {
 /******************************************/
 /* Design Service Overview Page Formatting*/
 /******************************************/
+/******************************************/
+/* Design Service Header                  */
+/******************************************/
 /* Set the margin-top to equal the height of the navbar */
 .design-services-poly1 {
   position: relative;
@@ -2249,7 +2252,7 @@ li.nav-item:hover a {
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%); }
 
-.design-services-poly1-title {
+#design-service-header h1 {
   font-size: 5rem;
   font-weight: 600;
   color: #FFFFFF;
@@ -2276,7 +2279,10 @@ li.nav-item:hover a {
   -ms-align-self: center;
   align-self: center; }
 
-.design-services-box1 {
+/******************************************/
+/* Design Service Intro Text              */
+/******************************************/
+.design-services-introbox {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -2300,73 +2306,127 @@ li.nav-item:hover a {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
-  width: 100%;
-  padding: 30px 0; }
+  width: 100%; }
 
-.design-responsive-image {
-  width: 600px;
-  height: 600px;
-  box-sizing: border-box !important;
-  border: none;
-  margin-bottom: 20px; }
-
-.design-service-text-box {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: column wrap;
-  -moz-flex-flow: column wrap;
-  -ms-flex-flow: column wrap;
-  flex-flow: column wrap;
-  -webkit-justify-content: flex-start;
-  -moz-justify-content: flex-start;
-  -ms-justify-content: flex-start;
-  justify-content: flex-start;
-  -ms-flex-pack: flex-start;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -webkit-box-flex: 0 0 auto;
-  -moz-box-flex: 0 0 auto;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  padding: 10px;
-  width: 1000px;
-  height: 950px;
-  /*border: 1px solid black;*/
+.design-services-introbox-title {
+  color: #000A40;
+  letter-spacing: 10px;
   font-weight: 600;
-  /*line-height: 1.5rem;*/
-  box-shadow: 1px 1px 1px #000;
-  box-sizing: border-box !important;
-  border-radius: 0; }
+  text-align: center;
+  padding: 50px 0 0 0; }
+  @media all and (max-width: 35.9375em) {
+    .design-services-introbox-title {
+      font-size: 2.5rem; } }
+  @media all and (min-width: 36em) {
+    .design-services-introbox-title {
+      font-size: 2.5rem; } }
+  @media all and (min-width: 48em) {
+    .design-services-introbox-title {
+      font-size: 2.5rem; } }
+  @media all and (min-width: 62em) {
+    .design-services-introbox-title {
+      font-size: 2.5rem; } }
+  @media all and (min-width: 75em) {
+    .design-services-introbox-title {
+      font-size: 3.75rem; } }
+  @media all and (min-width: 106.25em) {
+    .design-services-introbox-title {
+      font-size: 3.75rem; } }
+
+.design-services-introbox-text {
+  font-size: 1.5rem;
+  padding: 50px 50px;
+  line-height: 4rem; }
+
+/******************************************/
+/* Design Service Design Service Cards    */
+/******************************************/
+.design-card-group {
+  padding-bottom: 50px; }
+
+.design-card-image-size {
+  width: 500px;
+  height: 500px; }
+
+.design-card-title {
+  color: #000A40;
+  letter-spacing: 10px;
+  font-weight: 600; }
+
+#design-service-cards p {
+  font-size: 1.5rem; }
+
+/******************************************/
+/* Design Service Techniques Used         */
+/******************************************/
+#design-service-techniques {
+  background-color: #000A40;
+  padding: 50px 0;
+  /*width: 100%;*/ }
+
+#design-service-techniques .row {
+  /*border: 1px solid $brand-secondary;*/
+  background-color: #B2BEB5;
+  color: #1c1e26;
+  /*margin: 0 20px;*/
+  padding-top: 10px;
+  height: 70px; }
+  #design-service-techniques .row:first-child {
+    border: 1px solid #FFFFFF;
+    color: #000A40;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+    /*font-weight: $bold;*/
+    height: 75px;
+    /*margin-top: 100px;*/ }
+  #design-service-techniques .row:last-child {
+    border: 1px solid #FFFFFF;
+    /*padding-bottom: 50px;*/ }
+
+/*.design-service-text-box {
+    @include flexbox();
+    @include flex-flow(column wrap);
+    @include justify-content(flex-start);
+    @include align-items(center);
+    @include flex(0 0 auto);
+    padding: 10px;
+    width: 1000px;
+    height: 950px;
+    border: 1px solid black;
+    font-weight: $bold;
+    line-height: 1.5rem;
+    box-shadow: 1px 1px 1px #000;
+    box-sizing: border-box !important;
+    border-radius: 0;
+}
 
 .design-service-text-box-title {
-  color: #000A40;
-  letter-spacing: 20px;
-  font-size: 2.5rem;
-  text-align: center; }
+    color: $brand-accent-color2;
+    letter-spacing: 20px;
+    font-size: $large-font-size;
+    text-align: center;
+}
 
 .design-service-text-box-text {
-  font-size: 1.5rem;
-  text-align: left;
-  color: #1c1e26; }
+    font-size: $regular-font-size;
+    text-align: left;
+    color: $brand-primary;
+}
 
 .design-service-text-box-text p {
-  font-size: 1.5rem; }
+    font-size: $regular-font-size;
+}
 
 .design-service-text-box-text li {
-  font-weight: 400;
-  font-size: 1.5rem; }
+    font-weight: $regular;
+    font-size: $regular-font-size;
+}
 
 .design-service-text-box-text a {
-  font-weight: 400;
-  font-size: 1.5rem;
-  color: #000000; }
-
+    font-weight: $regular;
+    font-size: $regular-font-size;
+    color: $brand-black;
+}*/
 /*.box1 {
     position: relative;
     @include flexbox();

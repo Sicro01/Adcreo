@@ -2,6 +2,10 @@
 /* Design Service Overview Page Formatting*/
 /******************************************/
 
+/******************************************/
+/* Design Service Header                  */
+/******************************************/
+
 /* Set the margin-top to equal the height of the navbar */
 .design-services-poly1 {
     position: relative;
@@ -19,7 +23,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }
 
-.design-services-poly1-title {
+#design-service-header h1 {
     font-size: $large-font-size * 2;
     font-weight: $bold;
     color: $brand-secondary;
@@ -43,25 +47,116 @@
     @include align-self(center);
 }
 
-.design-services-box1 {
+/******************************************/
+/* Design Service Intro Text              */
+/******************************************/
+
+.design-services-introbox {
     @include flexbox();
     @include flex-flow(row wrap);
     @include justify-content(space-around);
     @include align-items(center);
     @include flex(1 0 auto);
     width: 100%;
-    padding: 30px 0;
 }
 
-.design-responsive-image {
-    width: 600px;
-    height: 600px;
-    box-sizing: border-box !important;
-    border: none;
-    margin-bottom: 20px;
+.design-services-introbox-title {
+    color: $brand-accent-color2;
+    letter-spacing: 10px;
+    font-weight: $bold;
+    text-align: center;
+    padding: 50px 0 0 0;
+
+    @include mappy-bp(max xsmall) {
+        font-size: $large-font-size * 1;
+    }
+
+    @include mappy-bp(xsmall) {
+        font-size: $large-font-size * 1;
+    }
+
+    @include mappy-bp(small) {
+        font-size: $large-font-size * 1;
+    }
+
+    @include mappy-bp(medium) {
+        font-size: $large-font-size * 1;
+    }
+
+    @include mappy-bp(large) {
+        font-size: $large-font-size * 1.5;
+    }
+
+    @include mappy-bp(xlarge) {
+        font-size: $large-font-size * 1.5;
+    }
 }
 
-.design-service-text-box {
+.design-services-introbox-text {
+    font-size: $regular-font-size;
+    padding: 50px 50px;
+    line-height: 4rem;
+}
+
+/******************************************/
+/* Design Service Design Service Cards    */
+/******************************************/
+
+.design-card-group {
+    padding-bottom: 50px;
+}
+
+.design-card-image-size {
+    width: 500px;
+    height: 500px;
+}
+
+.design-card-title {
+    color: $brand-accent-color2;
+    letter-spacing: 10px;
+    font-weight: $bold;
+}
+
+#design-service-cards p {
+    font-size: $regular-font-size;
+}
+
+/******************************************/
+/* Design Service Techniques Used         */
+/******************************************/
+
+#design-service-techniques {
+    background-color: $brand-accent-color2;
+    padding: 50px 0;
+    /*width: 100%;*/
+}
+
+#design-service-techniques .row {
+    /*border: 1px solid $brand-secondary;*/
+    background-color: $brand-ash-gray;
+    color: $brand-primary;
+    /*margin: 0 20px;*/
+    padding-top: 10px;
+    height: 70px;
+
+    &:first-child {
+        border: 1px solid $brand-secondary;
+        color: $brand-accent-color2;
+        letter-spacing: 5px;
+        font-size: $large-font-size;
+        /*font-weight: $bold;*/
+        height: 75px;
+        /*margin-top: 100px;*/
+    }
+
+    &:last-child {
+        border: 1px solid $brand-secondary;
+        /*padding-bottom: 50px;*/
+    }
+}
+
+
+/*.design-service-text-box {
     @include flexbox();
     @include flex-flow(column wrap);
     @include justify-content(flex-start);
@@ -70,9 +165,9 @@
     padding: 10px;
     width: 1000px;
     height: 950px;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     font-weight: $bold;
-    /*line-height: 1.5rem;*/
+    line-height: 1.5rem;
     box-shadow: 1px 1px 1px #000;
     box-sizing: border-box !important;
     border-radius: 0;
@@ -99,11 +194,14 @@
     font-weight: $regular;
     font-size: $regular-font-size;
 }
+
 .design-service-text-box-text a {
     font-weight: $regular;
     font-size: $regular-font-size;
     color: $brand-black;
-}
+}*/
+
+
 
 /*.box1 {
     position: relative;
