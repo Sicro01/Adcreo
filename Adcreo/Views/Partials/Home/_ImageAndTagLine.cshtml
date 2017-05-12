@@ -3,10 +3,15 @@
 @*  Background Image, Overlay, Tagline and Arrow Prompt  *@
 <div class="background-image">
     <div class="flex-container-homepage">
-        <div id="startchange" class="flex-item-tagline" data-aos="fade-up" data-aos-duration="3000">
+        <div id="startchange" class="flex-item-tagline1">
             <span>@Html.Raw(Umbraco.ReplaceLineBreaksForHtml(Umbraco.AssignedContentItem.GetPropertyValue("pageHeading").ToString()))</span>
-            <span class="icon-arrow-up"></span>
         </div>
+        <div class="flex-item-tagline2">
+            <span>@Html.Raw(Umbraco.ReplaceLineBreaksForHtml(Umbraco.AssignedContentItem.GetPropertyValue("pageHeading2").ToString()))</span>
+        </div>
+        @*<div class="flex-item-tagline3">
+            <span>@Html.Raw(Umbraco.ReplaceLineBreaksForHtml(Umbraco.AssignedContentItem.GetPropertyValue("pageHeading2").ToString()))</span>
+        </div>*@
     </div>
     <div class="bounce flex-container-arrow">
         <a href="#weareabout" class="flex-item-downarrow smoothScroll"></a>

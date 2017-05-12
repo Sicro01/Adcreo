@@ -1,6 +1,6 @@
 ﻿.background-image {
     height: 100%;
-    background: url('../Media/women-success.jpg') no-repeat center center fixed;
+    background: url('../../../../Media/iStock-495193237.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -8,43 +8,60 @@
     @include flexbox();
     background: linear-gradient( rgba(0, 10, 64, 0.5), rgba(0, 10, 64, 0.5)) no-repeat center center fixed;
     height: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include flex-direction(row);
+    @include align-items(flex-end);
+    @include justify-content(space-between);
 }
 
-.flex-item-tagline {
+.flex-item-tagline1 {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     color: #ffffff;
-    width: 50%;
+    width: 14%;
     border: 1px solid rgba(255,255,255,1);
-        
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+
 
     @include respond-to(xsmall) {
-        font-size: $brand-font-size * 2;
+        font-size: $brand-font-size * 1;
     }
 
     @include respond-to(small) {
-        font-size: $brand-font-size * 2.5;
+        font-size: $brand-font-size * 1;
     }
 
     @include respond-to(medium) {
-        font-size: $brand-font-size * 3;
+        font-size: $brand-font-size * 2;
     }
 
     @include respond-to(large) {
-        font-size: $brand-font-size * 3.5;
+        font-size: $brand-font-size * 2;
     }
 
     @include respond-to(xlarge) {
-        font-size: $brand-font-size * 4;
+        font-size: $brand-font-size * 2;
     }
 }
 
+.flex-item-tagline2 {
+    @extend .flex-item-tagline1;
+    margin-left: 0;
+    margin-right: 10px;
+    @include align-self(flex-end);
+    @include justify-content(flex-end);
+}
 
-.flex-item-tagline-border-top {
+/*.flex-item-tagline3 {
+    @extend .flex-item-tagline1;
+    margin-left: 0;
+    @include align-self(flex-end);
+    @include justify-content(flex-end);
+}*/
+
+/*.flex-item-tagline-border-top {
     border-top: 1px solid white;
     
 }
@@ -68,7 +85,7 @@
 
 .flex-item-tagline > [class*="icon"] {
     color: $brand-body-bg1;
-}
+}*/
 
 .flex-container-arrow {
     text-align: center;

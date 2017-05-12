@@ -1,0 +1,2 @@
+﻿ 2017-05-10 14:17:28,262 [P5132/D2/T242] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-05-10 14:18:49,691 [P5132/D2/T308] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-05-09 14:18:49

@@ -1,0 +1,32 @@
+﻿ 2017-05-11 11:44:20,243 [P5132/D2/T310] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type home matches a locally declared controller of type Adcreo.Controllers.HomeController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-05-11 12:19:41,952 [P5132/D2/T259] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-05-10 12:19:41
+ 2017-05-11 16:19:41,992 [P5132/D2/T246] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-05-10 16:19:41
+ 2017-05-11 16:58:44,065 [P5132/D2/T266] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type businessConsultancy matches a locally declared controller of type Adcreo.Controllers.BusinessConsultancyController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-05-11 16:58:53,525 [P5132/D2/T270] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type design matches a locally declared controller of type Adcreo.Controllers.DesignController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-05-11 17:36:33,681 [P5132/D2/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-05-11 17:36:33,681 [P5132/D2/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-05-11 17:36:33,759 [P5132/D2/T259] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-05-11 17:36:33,774 [P5132/D2/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-05-11 17:36:33,774 [P5132/D2/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-05-11 17:36:33,790 [P5132/D2/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-05-11 17:36:33,790 [P5132/D2/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-05-11 17:36:33,790 [P5132/D2/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-05-11 17:36:33,790 [P5132/D2/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-05-11 17:36:33,790 [P5132/D2/T254] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-05-11 17:36:33,790 [P5132/D2/T266] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-05-11 17:36:33,790 [P5132/D2/T254] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-05-11 17:36:33,790 [P5132/D2/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-05-11 17:36:33,790 [P5132/D2/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-05-11 17:36:33,790 [P5132/D2/T320] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-05-11 17:36:37,134 [P5132/D2/T267] INFO  Umbraco.Core.MainDom - Stopping...
+ 2017-05-11 17:36:37,166 [P5132/D2/T267] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2017-05-11 17:37:07,313 [P5132/D2/T259] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
