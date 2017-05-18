@@ -1,0 +1,2 @@
+﻿ 2017-05-15 13:02:14,352 [P5500/D3/T40] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type design matches a locally declared controller of type Adcreo.Controllers.DesignController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2017-05-15 13:41:22,159 [P5500/D3/T84] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-05-14 13:41:22
